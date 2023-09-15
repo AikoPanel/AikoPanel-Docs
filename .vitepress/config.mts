@@ -37,7 +37,6 @@ export default defineConfig({
           { text: 'Node', link: '/aikopanel/node.md' },
         ],
       '/aikoserver/' : [
-          { text: 'Home', link: '/home' },
           { text: 'Installation', link: '/aikoserver/installation.md' },
           { text: 'Configuration', link: '/aikoserver/configuration.md' },
         ],
@@ -45,9 +44,10 @@ export default defineConfig({
           { text: 'Trang chủ', link: '/vi/aikopanel/home.md' },
           { text: 'Cài đặt', link: '/vi/aikopanel/installation.md' },
           { text: 'Cấu hình', link: '/vi/aikopanel/configuration.md' },
+          { text: 'Triển khai', link: '/vi/aikopanel/deploy.md'},
+          { text: 'Node', link: '/vi/aikopanel/node.md' },
         ],
       '/vi/aikoserver/' : [
-          { text: 'Trang chủ', link: '/aikoserver/home.md' },
           { text: 'Cài đặt', link: '/aikoserver/installation.md' },
           { text: 'Cấu hình', link: '/aikoserver/onfiguration.md' },
         ],
