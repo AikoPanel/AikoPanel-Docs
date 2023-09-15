@@ -33,7 +33,8 @@ export default defineConfig({
           { text: 'Home', link: '/aikopanel/home.md' },
           { text: 'Installation', link: '/aikopanel/installation.md' },
           { text: 'Configuration', link: '/aikopanel/configuration.md' },
-          { text: 'node', link: '/aikopanel/node.md' },
+          { text: 'Deploy', link: '/aikopanel/deploy.md'},
+          { text: 'Node', link: '/aikopanel/node.md' },
         ],
       '/aikoserver/' : [
           { text: 'Home', link: '/home' },
