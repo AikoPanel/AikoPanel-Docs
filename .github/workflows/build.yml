@@ -27,7 +27,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.TOKEN }}
-        publish_dir: ./dist
+        publish_dir: ./.vitepress/dist
         user_name: 'github-actions[bot]'
         user_email: '41898282+github-actions[bot]@users.noreply.github.com'
         cname: docs.aikocute.net
