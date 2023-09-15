@@ -52,7 +52,7 @@ rm -rf .htaccess 404.html index.html .user.ini
 ```
 Dowload Source AikoPanel
 ```
-- Execute commands to install dependent packages and V2board
+- Execute commands to install dependent packages and AikoPanel
 ```
 sh init.sh
 ```
@@ -82,19 +82,19 @@ location ~ .*\.(js|css)?$
 
 7. Configure a scheduled task
 - aaPanel Panel > Cron.
-    - In Type of Task, select Shell Script, fill in v2board
+    - In Type of Task, select Shell Script, fill in AikoPanel
     - in Name of Task, select N Minutes in Period, select N Minutes 1 Minute
-, fill in PHP /www/wwwroot/path/artisan schedule:run in Script
+, fill in PHP `/www/wwwroot/path/artisan schedule:run` in Script
 content
 - Based on the above information, add a scheduled task that is executed every 1 minute.
 
 8. Start the queue service 
-- V2board's system relies heavily on the queue service, and the queue service must be started to use V2Board normally. The following is a demonstration of the supervisor service in aaPanel to guard the queue service.
+- AikoPanel's system relies heavily on the queue service, and the queue service must be started to use AikoPanel normally. The following is a demonstration of the supervisor service in aaPanel to guard the queue service.
 
 - aaPanel Panel > App Store > Tools
 
 - Find the Supervisor to install, and after the installation is completed, click to fill in as follows `Setting > Add Daemon`
-    - In Name, fill in V2board , select www in Run User,
+    - In Name, fill in AikoPanel , select www in Run User,
 select Site Directory in Start Command, fill in php artisan horizon, fill in 1 in Processes
 - After filling in, click Confirm to add and run.
 
