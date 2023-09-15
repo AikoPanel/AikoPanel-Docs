@@ -17,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Build Vitepress
-        run: npm run build
+        run: npm run docs:build
 
   deploy:
     runs-on: ubuntu-latest
@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
+          publish_dir: .vitepress/dist
           cname: docs.aikocute.net
