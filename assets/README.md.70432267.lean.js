@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as s,Q as o}from"./chunks/framework.01af844e.js";const m=JSON.parse('{"title":"AikoPanel-Docs","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),t={name:"README.md"},n=o("",2),c=[n];function i(l,p,d,r,_,h){return a(),s("div",null,c)}const k=e(t,[["render",i]]);export{m as __pageData,k as default};
