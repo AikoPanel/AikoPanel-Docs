@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o}from"./chunks/framework.01af844e.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"aikoserver/home.md","filePath":"aikoserver/home.md"}'),r={name:"aikoserver/home.md"};function a(s,c,n,i,m,p){return t(),o("div")}const f=e(r,[["render",a]]);export{d as __pageData,f as default};
