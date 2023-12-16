@@ -8,5 +8,8 @@
 
 ## Nhật kí thay đổi
 
+### v1.0.1-beta.3
+- sửa lỗi bảng quản trị (Đặt Plan_Id của người dùng là Null rồi đăng ký Error Api)
+
 ### v1.0.1-beta
 - Fix lỗi cơ bản ban đầu

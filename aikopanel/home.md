@@ -8,5 +8,8 @@
 
 ## Changelog
 
+### v1.0.1-beta.3
+- fix bug admin panel ( Set Plan_Id of user is Null then Error Api subcribe )
+
 ### v1.0.1-beta
 - Fixed initial basic errors.
