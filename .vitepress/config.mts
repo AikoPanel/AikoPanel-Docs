@@ -31,19 +31,21 @@ export default defineConfig({
     sidebar: {
       '/aikopanel/' : [
           { text: 'Home', link: '/aikopanel/home.md' },
-          { text: 'Deploy', link: '/aikopanel/deploy.md'},
+          { text: 'install', link: '/aikopanel/install.md'},
           { text: 'Node', link: '/aikopanel/node.md' },
         ],
       '/aikoserver/' : [
           { text: 'Home', link: '/aikoserver/home.md'},
+          { text: `install` , link: '/aikoserver/install.md'},
         ],
       '/vi/aikopanel/' : [
           { text: 'Trang chủ', link: '/vi/aikopanel/home.md' },
-          { text: 'Triển khai', link: '/vi/aikopanel/deploy.md'},
+          { text: 'Cài đặt', link: '/vi/aikopanel/install.md'},
           { text: 'Node', link: '/vi/aikopanel/node.md' },
         ],
       '/vi/aikoserver/' : [
           { text: 'Trang chủ', link: '/vi/aikoserver/home.md'},
+          { text: `Cài đặt` , link: '/vi/aikoserver/install.md'},
         ],
     },
 
