@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as s,R as t}from"./chunks/framework.3LEfkZv-.js";const m=JSON.parse('{"title":"AikoPanel-Docs","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),o={name:"README.md"},n=t("",2),c=[n];function i(l,d,r,p,_,h){return e(),s("div",null,c)}const k=a(o,[["render",i]]);export{m as __pageData,k as default};
