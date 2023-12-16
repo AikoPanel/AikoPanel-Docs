@@ -15,7 +15,7 @@ hero:
       link: /vi/aikoserver/home
     - theme: alt
       text: Aiko Community
-      link: https://t.me/AikoServer_Community
+      link: https://t.me/AikoPanel
 
 features:
   - title: AikoPanel
@@ -26,6 +26,6 @@ features:
     link: /vi/aikoserver/home
   - title: Aiko Community
     details: Tham gia cộng đồng Aiko
-    link: https://t.me/AikoServer_Community
+    link: https://t.me/AikoPanel
 
 ---

@@ -26,7 +26,7 @@ Các số phiên bản môi trường trên chỉ là yêu cầu tối thiểu v
 
 2. Cài đặt Redis và fileinfo
 
-- Bật aaPanel > App Store > PHP 7.4 và nhấp vào Setting > Install extensions > chọn redis, fileinfo để cài đặt.
+- Bật aaPanel > App Store > PHP 7.4 và nhấp vào Setting > Install extensions > chọn redis, fileinfo,ioncube để cài đặt.
 
 3. Loại bỏ các hàm bị cấm
 
@@ -35,6 +35,7 @@ Các số phiên bản môi trường trên chỉ là yêu cầu tối thiểu v
   - `proc_open`
   - `pcntl_alarm`
   - `pcntl_signal`
+  - `exec`
 
 4. Thêm một trang web
 
@@ -57,7 +58,7 @@ rm -rf .htaccess 404.html index.html .user.ini
 - Thực thi lệnh để sao chép từ Github vào thư mục hiện tại.
 
 ```
-Tải mã nguồn AikoPanel
+git clone https://github.com/AikoPanel/AikoPanel.git ./
 ```
 
 - Thực thi các lệnh để cài đặt các gói phụ thuộc và AikoPanel

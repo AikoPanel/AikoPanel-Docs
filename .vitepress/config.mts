@@ -31,30 +31,24 @@ export default defineConfig({
     sidebar: {
       '/aikopanel/' : [
           { text: 'Home', link: '/aikopanel/home.md' },
-          { text: 'Installation', link: '/aikopanel/installation.md' },
-          { text: 'Configuration', link: '/aikopanel/configuration.md' },
           { text: 'Deploy', link: '/aikopanel/deploy.md'},
           { text: 'Node', link: '/aikopanel/node.md' },
         ],
       '/aikoserver/' : [
-          { text: 'Installation', link: '/aikoserver/installation.md' },
-          { text: 'Configuration', link: '/aikoserver/configuration.md' },
+          { text: 'Home', link: '/aikoserver/home.md'},
         ],
       '/vi/aikopanel/' : [
           { text: 'Trang chủ', link: '/vi/aikopanel/home.md' },
-          { text: 'Cài đặt', link: '/vi/aikopanel/installation.md' },
-          { text: 'Cấu hình', link: '/vi/aikopanel/configuration.md' },
           { text: 'Triển khai', link: '/vi/aikopanel/deploy.md'},
           { text: 'Node', link: '/vi/aikopanel/node.md' },
         ],
       '/vi/aikoserver/' : [
-          { text: 'Cài đặt', link: '/aikoserver/installation.md' },
-          { text: 'Cấu hình', link: '/aikoserver/onfiguration.md' },
+          { text: 'Trang chủ', link: '/vi/aikoserver/home.md'},
         ],
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AikoPanel' }
+      { icon: 'github', link: 'https://github.com/orgs/AikoPanel/repositories' }
     ]
   }
 })

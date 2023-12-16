@@ -7,7 +7,7 @@ import {
   ref,
   unref,
   watchEffect
-} from "./chunk-G3CMYKT2.js";
+} from "./chunk-LKWGTHGY.js";
 
 // node_modules/@vueuse/shared/index.mjs
 function tryOnScopeDispose(fn) {
@@ -21,10 +21,11 @@ function toValue(r) {
   return typeof r === "function" ? r() : unref(r);
 }
 var isClient = typeof window !== "undefined" && typeof document !== "undefined";
+var isWorker = typeof WorkerGlobalScope !== "undefined" && globalThis instanceof WorkerGlobalScope;
 var isIOS = getIsIOS();
 function getIsIOS() {
-  var _a;
-  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && /iP(ad|hone|od)/.test(window.navigator.userAgent);
+  var _a, _b;
+  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && (/iP(ad|hone|od)/.test(window.navigator.userAgent) || ((_b = window == null ? void 0 : window.navigator) == null ? void 0 : _b.maxTouchPoints) > 2 && /iPad|Macintosh/.test(window == null ? void 0 : window.navigator.userAgent));
 }
 function cacheStringFunction(fn) {
   const cache = /* @__PURE__ */ Object.create(null);
@@ -34,9 +35,7 @@ function cacheStringFunction(fn) {
   };
 }
 var hyphenateRE = /\B([A-Z])/g;
-var hyphenate = cacheStringFunction(
-  (str) => str.replace(hyphenateRE, "-$1").toLowerCase()
-);
+var hyphenate = cacheStringFunction((str) => str.replace(hyphenateRE, "-$1").toLowerCase());
 var camelizeRE = /-(\w)/g;
 var camelize = cacheStringFunction((str) => {
   return str.replace(camelizeRE, (_, c) => c ? c.toUpperCase() : "");
@@ -168,4 +167,4 @@ export {
   unrefElement,
   useMediaQuery
 };
-//# sourceMappingURL=chunk-4A2V37U7.js.map
+//# sourceMappingURL=chunk-C2TR7O7L.js.map
