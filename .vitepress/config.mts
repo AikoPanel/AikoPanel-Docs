@@ -1,8 +1,8 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
-  title: "Aiko Services",
-  description: "Documents for AikoPanel and AikoServer",
+  title: "AikoPanelv3 Docs",
+  description: "Documentation for AikoPanelv3 and AikoServer",
 
   locales: {
     root: {
@@ -29,24 +29,54 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/aikopanel/' : [
-          { text: 'Home', link: '/aikopanel/home.md' },
-          { text: 'install', link: '/aikopanel/install.md'},
-          { text: 'Node', link: '/aikopanel/node.md' },
-        ],
-      '/aikoserver/' : [
-          { text: 'Home', link: '/aikoserver/home.md'},
-          { text: `install` , link: '/aikoserver/install.md'},
-        ],
-      '/vi/aikopanel/' : [
-          { text: 'Trang chủ', link: '/vi/aikopanel/home.md' },
-          { text: 'Cài đặt', link: '/vi/aikopanel/install.md'},
-          { text: 'Node', link: '/vi/aikopanel/node.md' },
-        ],
-      '/vi/aikoserver/' : [
-          { text: 'Trang chủ', link: '/vi/aikoserver/home.md'},
-          { text: `Cài đặt` , link: '/vi/aikoserver/install.md'},
-        ],
+      '/aikopanel/': [
+        { text: 'Home', link: '/aikopanel/home.md' },
+        {
+          text: 'Deploy',
+          items: [
+            { text: 'aaPanel', link: '/aikopanel/deploy/aapanel.md' },
+          ],
+        },
+        {
+          text: 'Information',
+          items: [
+            { text: 'Node', link: '/aikopanel/Information/node.md' },
+          ],
+        }
+      ],
+      '/aikoserver/': [
+        { text: 'Home', link: '/aikoserver/home.md' },
+        {
+          text: 'Deploy',
+          items: [
+            { text: 'Install', link: '/aikoserver/install.md' },
+          ],
+        },
+      ],
+      '/vi/aikopanel/': [
+        { text: 'Trang chủ', link: '/vi/aikopanel/home.md' },
+        {
+          text: 'Triển khai',
+          items: [
+            { text: 'aaPanel', link: '/vi/aikopanel/deploy/aapanel.md' },
+          ],
+        },
+        {
+          text: 'Thông tin',
+          items: [
+            { text: 'Nút', link: '/vi/aikopanel/information/node.md' },
+          ],
+        },
+      ],
+      '/vi/aikoserver/': [
+        { text: 'Trang chủ', link: '/vi/aikoserver/home.md' },
+        {
+          text: 'Triển khai',
+          items: [
+            { text: 'Cài đặt', link: '/vi/aikoserver/install.md' },
+          ],
+        },
+      ],
     },
 
     socialLinks: [
