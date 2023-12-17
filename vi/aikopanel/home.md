@@ -8,6 +8,9 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### AikoPanel v3 Release
+- Thêm đăng ký đường dẫn tùy chỉnh khác
+
 ### v1.0.1-beta.3
 - sửa lỗi bảng quản trị (Đặt Plan_Id của người dùng là Null rồi đăng ký Error Api)
 

@@ -8,6 +8,9 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### AikoPanel v3 Release
+- Add More Custom path subcribe
+
 ### v1.0.1-beta.3
 - fix bug admin panel ( Set Plan_Id of user is Null then Error Api subcribe )
 
