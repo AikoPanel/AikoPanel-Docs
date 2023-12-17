@@ -38,6 +38,14 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Migrate to AikoPanel',
+          items: [
+            { text: 'AikoPanelv1', link: '/aikopanel/migrate/aikopanelv1.md' },
+            { text: 'V2board v1.7.4', link: '/aikopanel/migrate/v2board-v1.7.4.md'},
+            { text: 'V2board v1.7.3', link: '/aikopanel/migrate/v2board-v1.7.3.md'},
+          ],
+        },
+        {
           text: 'Information',
           items: [
             { text: 'Node', link: '/aikopanel/Information/node.md' },
@@ -59,6 +67,14 @@ export default defineConfig({
           text: 'Triển khai',
           items: [
             { text: 'aaPanel', link: '/vi/aikopanel/deploy/aapanel.md' },
+          ],
+        },
+        {
+          text: 'Chuyển đổi sang AikoPanel',
+          items: [
+            { text: 'AikoPanelv1', link: '/vi/aikopanel/migrate/aikopanelv1.md' },
+            { text: 'V2board v1.7.4', link: '/vi/aikopanel/migrate/v2board-v1.7.4.md'},
+            { text: 'V2board v1.7.3', link: '/vi/aikopanel/migrate/v2board-v1.7.3.md'},
           ],
         },
         {
