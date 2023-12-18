@@ -43,6 +43,7 @@ export default defineConfig({
             { text: 'AikoPanelv1', link: '/aikopanel/migrate/aikopanelv1.md' },
             { text: 'V2board v1.7.4', link: '/aikopanel/migrate/v2board-v1.7.4.md'},
             { text: 'V2board v1.7.3', link: '/aikopanel/migrate/v2board-v1.7.3.md'},
+            { text: 'Nflash', link: '/aikopanel/migrate/nflash.md'},
           ],
         },
         {
@@ -75,6 +76,7 @@ export default defineConfig({
             { text: 'AikoPanelv1', link: '/vi/aikopanel/migrate/aikopanelv1.md' },
             { text: 'V2board v1.7.4', link: '/vi/aikopanel/migrate/v2board-v1.7.4.md'},
             { text: 'V2board v1.7.3', link: '/vi/aikopanel/migrate/v2board-v1.7.3.md'},
+            { text: 'Nflash', link: '/vi/aikopanel/migrate/nflash.md'},
           ],
         },
         {
