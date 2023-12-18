@@ -8,7 +8,12 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v1.0.2
+### v3.0.3
+- Cập nhật thêm về giao diện người dùng
+- Fix lỗi các app đang hỗ trợ ( nhất là singbox ) - Đã support beta version
+- Cập nhật flag Quantumult với (&flag=qxping)
+
+### v3.0.2
 - Tối ưu lại giao diện
 - cập nhật Report thông tin hàng ngày qua telegram
 - Support Plan 2 Month
@@ -30,11 +35,11 @@
 - Thêm trình quản lý , giới hạn user khi lấy appleid
 - Tối ưu hoá API khi user init node
 
-### AikoPanel v3 - v1.0.1
+### AikoPanel v3 - v3.0.1
 - Thêm đăng ký đường dẫn tùy chỉnh khác
 
-### v1.0.1-beta.3
+### v3.0.1-beta.3
 - sửa lỗi bảng quản trị (Đặt Plan_Id của người dùng là Null rồi đăng ký Error Api)
 
-### v1.0.1-beta
+### v3.0.1-beta
 - Fix lỗi cơ bản ban đầu

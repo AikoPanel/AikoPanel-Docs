@@ -8,7 +8,12 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v1.0.2
+### v3.0.3
+- Updated the user interface further.
+- Fixed issues with supported apps, especially Singbox. Now supporting the beta version.
+- Updated Quantumult flag with (&flag=qxping).
+
+### v3.0.2
 - Interface optimization
 - Daily report updates via Telegram
 - Support for 2 Month Plan
@@ -30,11 +35,11 @@
 - Manager tool and user limit for Apple ID retrieval
 - API optimization when user initiates a node
 
-### AikoPanel v3 - v1.0.1
+### AikoPanel v3 - v3.0.1
 - Add More Custom path subcribe
 
-### v1.0.1-beta.3
+### v3.0.1-beta.3
 - fix bug admin panel ( Set Plan_Id of user is Null then Error Api subcribe )
 
-### v1.0.1-beta
+### v3.0.1-beta
 - Fixed initial basic errors.
