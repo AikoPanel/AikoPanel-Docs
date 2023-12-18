@@ -3,6 +3,8 @@
 ### The migration scenario will make the following changes to your database
 - There are too many changes to list all
 
+**Node: NEED Update into AikoPanelv1 Latest**
+
 ## aapanel Environment
 1. Clean up the database entirely
 ```

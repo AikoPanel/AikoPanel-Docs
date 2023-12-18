@@ -3,6 +3,8 @@
 ### Kịch bản di chuyển sẽ thực hiện các thay đổi sau đây đối với cơ sở dữ liệu của bạn
 - Nhiều quá không liệt kê hết được
 
+**Lưu ý: Update lên AikoPanelv1 Latest để tránh lỗi**
+
 ## Môi trường aapanel
 1. Xóa sạch cơ sở dữ liệu
 ```
