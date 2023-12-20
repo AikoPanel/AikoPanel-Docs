@@ -8,6 +8,11 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### v3.0.5 - Comming Soon ( DEV Support Now )
+- Update Auto Change RecordID and IP on AutoDNS
+- Add Count Plan ( Current Used / Total Buy Plan)
+- Refactor Get Count in Plan User and Plan Admin ( Typo Bug )
+
 ### v3.0.4
 - Fixed the issue with Trojan With transport (WS, GRPC).
 - Optimized Rule verification for AutoDNS with Cloudflare.

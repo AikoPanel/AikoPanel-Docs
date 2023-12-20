@@ -8,6 +8,11 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### v3.0.5 - Sớm phát hành ( DEV Support Now )
+- Cập nhật tự động thay đổi RecordID và IP trên AutoDNS
+- Thêm tính năng Đếm Kế hoạch (Hiện tại đã sử dụng / Tổng số kế hoạch đã mua)
+- Tái cấu trúc Lấy số lượng trong Kế hoạch Người dùng và Kế hoạch Quản trị (Lỗi chính tả)
+
 ### v3.0.4
 - Sửa lỗi Trojan With transport ( WS, GRPC )
 - Tối ưu lại về Rule xác thực AutoDNS với Cloudflare
