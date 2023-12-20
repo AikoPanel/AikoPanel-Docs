@@ -8,6 +8,17 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### v3.0.4
+- Fixed the issue with Trojan With transport (WS, GRPC).
+- Optimized Rule verification for AutoDNS with Cloudflare.
+- Added Flag for Quantumult X.
+- Added Custom URL for AppleID.
+- Fixed the issue where Vless could not add flags.
+- Fixed the issue of duplicate names across apps when admin sets the same node name.
+- Edit Info displayed on Shadowrocket APP
+- Fix re-arrangement of Node
+- Add Add priority IP list when get Subscribe link
+
 ### v3.0.3
 - Updated the user interface further.
 - Fixed issues with supported apps, especially Singbox. Now supporting the beta version.

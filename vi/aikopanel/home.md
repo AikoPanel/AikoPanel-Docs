@@ -8,6 +8,17 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### v3.0.4
+- Sửa lỗi Trojan With transport ( WS, GRPC )
+- Tối ưu lại về Rule xác thực AutoDNS với Cloudflare
+- Thêm Flag cho Quantumult X
+- Thêm Custom URL cho AppleID
+- Fix lỗi Vless không add được flag
+- Fix lỗi trùng tên trên các app khi admin đặt trùng tên node
+- Sửa thông hiển thị trên APP Shadowrocket
+- Fix lại sắp xếp Node
+- Thêm danh sách IP ưu tiên khi lấy liên kết đăng kí
+
 ### v3.0.3
 - Cập nhật thêm về giao diện người dùng
 - Fix lỗi các app đang hỗ trợ ( nhất là singbox ) - Đã support beta version
