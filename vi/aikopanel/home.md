@@ -15,6 +15,7 @@
 - Thông tin khách hàng dành cho quản trị viên (người dùng khách hàng sẽ nhìn thấy nó)
 - Thêm option gói 1 ngày
 - Hỗ trợ Mysql ^8 và Mariadb ^10.7
+- Thêm bộ lọc theo mã đơn hàng
 
 ### v3.0.4
 - Sửa lỗi Trojan With transport ( WS, GRPC )
