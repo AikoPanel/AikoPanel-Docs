@@ -14,6 +14,7 @@
 - Refactor Get Count in Plan User and Plan Admin ( Typo Bug )
 - Customer Info for Admin ( client user willl see it )
 - Add Option Plan 1 days
+- Support Mysql ^8 And MariaDB ^10.7
 
 ### v3.0.4
 - Fixed the issue with Trojan With transport (WS, GRPC).

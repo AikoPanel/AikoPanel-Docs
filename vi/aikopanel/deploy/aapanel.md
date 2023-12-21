@@ -2,15 +2,16 @@
 
 ## Môi trường
 
-Yêu cầu cấu hình tối thiểu là 1Core/512M RAM
+Yêu cầu cấu hình tối thiểu là 2Core/4GB Ram cho V3
 
-|  Môi trường  | Phiên bản |
-| :----------: | :-------: |
-| Hệ điều hành |   Linux   |
-|     PHP      |   7.4+    |
-|    MySQL     |   5.7+    |
-|    Redis     |   5.0+    |
-|    Nginx     |   1.17+   |
+| Môi trường | Phiên bản |
+| :--------: | :-------: |
+|   System   |   Linux   |
+|    PHP     |    7.4    |
+|  MariaDB   |   10.7+   |
+|   MySQL    |   8.0+    |
+|   Redis    |   7.0+    |
+|   Nginx    |   1.21+   |
 
 Có các môi trường thay thế cho các yêu cầu trên, ví dụ, thay vì sử dụng nginx, bạn có thể sử dụng caddy.
 
@@ -80,31 +81,32 @@ sh init.sh
 location /downloads {
 }
 
-location / {  
-    try_files $uri $uri/ /index.php$is_args$query_string;  
+location / {
+    try_files $uri $uri/ /index.php$is_args$query_string;
 }
 
 location ~ .*\.(js|css)?$
 {
     expires      1h;
     error_log off;
-    access_log /dev/null; 
+    access_log /dev/null;
 }
 ```
 
-
 7. Cấu hình tác vụ theo lịch
+
 - Bật aaPanel > Cron.
-    - Ở Type of Task, chọn Shell Script, điền AikoPanel ở Name of Task, chọn N Minutes ở Period, chọn N Minutes ở Minute, điền PHP `/www/wwwroot/path/artisan schedule:run` trong nội dung Script.
+  - Ở Type of Task, chọn Shell Script, điền AikoPanel ở Name of Task, chọn N Minutes ở Period, chọn N Minutes ở Minute, điền PHP `/www/wwwroot/path/artisan schedule:run` trong nội dung Script.
 - Dựa trên thông tin trên, thêm một tác vụ theo lịch được thực thi mỗi 1 phút.
 
-8. Khởi động dịch vụ hàng đợi 
+8. Khởi động dịch vụ hàng đợi
+
 - Hệ thống của AikoPanel phụ thuộc nhiều vào dịch vụ hàng đợi, và dịch vụ hàng đợi phải được khởi động để sử dụng AikoPanel bình thường. Dưới đây là một ví dụ về dịch vụ giám sát trong aaPanel để giám sát dịch vụ hàng đợi.
 
 - Bật aaPanel > App Store > Công cụ
 
 - Tìm Supervisor để cài đặt, và sau khi cài đặt hoàn thành, nhấp vào để điền như sau: `Setting > Add Daemon`
-    - Ở phần Name, điền AikoPanel, chọn www ở phần Run User, chọn Site Directory ở Start Command, điền php artisan horizon, điền 1 ở phần Processes
+  - Ở phần Name, điền AikoPanel, chọn www ở phần Run User, chọn Site Directory ở Start Command, điền php artisan horizon, điền 1 ở phần Processes
 - Sau khi điền, nhấp vào Confirm để thêm và chạy.
 
 # Câu hỏi thường gặp

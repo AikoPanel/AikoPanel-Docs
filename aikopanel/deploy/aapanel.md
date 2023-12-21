@@ -2,15 +2,20 @@
 
 ## Env
 
-The minimum configuration requirement is 1Core/512M RAM
+The minimum configuration requirement is 2Core/4GB Ram For V3
 
-| Environment | Version |
-| :---------: | :-----: |
-|   System    |  Linux  |
-|     PHP     |   7.4   |
-|   MariaDB   |  10.7+  |
-|    Redis    |  7.0+   |
-|    Nginx    |  1.21+  |
+Để bổ sung thông tin hỗ trợ MySQL 8.0 vào bảng bạn đã cung cấp, bạn có thể chỉnh sửa như sau:
+
+|  Environment  |       Version        |
+| :-----------: | :------------------: |
+|    System     |        Linux         |
+|      PHP      |         7.4          |
+|   MariaDB     |        10.7+         |
+|    MySQL      |         8.0+         |
+|     Redis     |         7.0+         |
+|     Nginx     |        1.21+         |
+
+Bằng cách này, bạn rõ ràng chỉ ra rằng hệ thống của bạn hỗ trợ cả MariaDB 10.7 trở lên và MySQL 8.0.
 
 There are alternatives to the above environments, for example, nginx you can use caddy
 
