@@ -13,6 +13,7 @@
 - Thêm tính năng Đếm Kế hoạch (Hiện tại đã sử dụng / Tổng số kế hoạch đã mua)
 - Tái cấu trúc Lấy số lượng trong Kế hoạch Người dùng và Kế hoạch Quản trị (Lỗi chính tả)
 - Thông tin khách hàng dành cho quản trị viên (người dùng khách hàng sẽ nhìn thấy nó)
+- Thêm option gói 1 ngày
 
 ### v3.0.4
 - Sửa lỗi Trojan With transport ( WS, GRPC )
