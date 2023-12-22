@@ -27,7 +27,7 @@ Automatic subscription: The client requests that AikoPanel cannot recognize the 
 |  Kitsunebi   |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ❌            |         kitsunebi          |
 |    Surge     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           surge            |
 |    Stash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           stash            |
-
+|   Sing-box   |     ✅      |  ✅   |  ✅   |   ✅   |    ✅    |           ✅            |          sing-box          |
 
 ## What is the difference between a connection port and a service port
 
@@ -42,7 +42,6 @@ parent node is used by the server to obtain the node configuration and client co
 
 Child node The
 child node inherits the node status of the parent node in order to display the correct node status to the user, and the parameter configuration is only used for client connections and will not interact with the server. The node multiplier synchronizes the parent node.
-
 
 Transit example Suppose I configure port 443 for the landing end, then I first configure the landing server on the parent node and ensure that it can connect to the landing end, and then we forward the transit port 10443 to the landing port 443, then I only need to copy a child node to change the address to the transit address, and the port to 10443 allows users to connect to the transit.
 

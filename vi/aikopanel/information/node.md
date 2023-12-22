@@ -17,17 +17,17 @@ AikoPanel hiện hỗ trợ các giao thức sau:
 Đăng ký tự động ☑️: UA được mang theo bởi máy khách khi yêu cầu cho phép AikoPanel biết loại máy khách để xử lý.
 Đăng ký tự động: Máy khách yêu cầu mà AikoPanel không thể nhận diện yêu cầu đó cần mang mã xác định được chỉ định, ví dụ như shadowrocket, vui lòng thêm sau khi đăng ký ❌`&flag=shadowrocket` , mã xác định cụ thể có thể xem trong danh sách máy khách.
 
-|    Máy khách    | Shadowsocks | Vmess | VLESS | Trojan | Hysteria | Đăng ký tự động |    Mã xác định     |
-| :----------: | :---------: | :---: | :---: | :----: | :------: | :---------------------: | :------------------------: |
-| Shadowrocket |     ✅      |  ✅   |  ✅   |   ✅   |    ✅    |           ✅            |        shadowrocket        |
-| Quantumult X |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            | quantumult%20x, qxping |
-|    Stash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           stash            |
-|    Clash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           clash            |
-|  Surfboard   |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |         surfboard          |
-|  Kitsunebi   |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ❌            |         kitsunebi          |
-|    Surge     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           surge            |
-|    Stash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |           ✅            |           stash            |
-
+|  Máy khách   | Shadowsocks | Vmess | VLESS | Trojan | Hysteria | Đăng ký tự động |      Mã xác định       |
+| :----------: | :---------: | :---: | :---: | :----: | :------: | :-------------: | :--------------------: |
+| Shadowrocket |     ✅      |  ✅   |  ✅   |   ✅   |    ✅    |       ✅        |      shadowrocket      |
+| Quantumult X |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        | quantumult%20x, qxping |
+|    Stash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        |         stash          |
+|    Clash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        |         clash          |
+|  Surfboard   |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        |       surfboard        |
+|  Kitsunebi   |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ❌        |       kitsunebi        |
+|    Surge     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        |         surge          |
+|    Stash     |     ✅      |  ✅   |  ❌   |   ✅   |    ❌    |       ✅        |         stash          |
+|   Sing-box   |     ✅      |  ✅   |  ✅   |   ✅   |    ✅    |       ✅        |        sing-box        |
 
 ## Sự khác biệt giữa cổng kết nối và cổng dịch vụ là gì?
 
@@ -42,7 +42,6 @@ nút cha được sử dụng bởi máy chủ để có được cấu hình n�
 
 Nút con
 nút con kế thừa trạng thái của nút cha để hiển thị trạng thái nút chính xác cho người dùng, và cấu hình tham số chỉ được sử dụng cho kết nối máy khách và sẽ không tương tác với máy chủ. Bộ nhân nút đồng bộ với nút cha.
-
 
 Ví dụ về chuyển tiếp Giả sử tôi cấu hình cổng 443 cho đầu đất, sau đó tôi trước tiên cấu hình máy chủ đầu đất trên nút cha và đảm bảo rằng nó có thể kết nối đến đầu đất, sau đó chúng tôi chuyển tiếp cổng trung gian 10443 đến cổng đất 443, sau đó tôi chỉ cần sao chép một nút con để thay đổi địa chỉ thành địa chỉ trung gian, và cổng thành 10443 cho phép người dùng kết nối đến trung gian.
 
