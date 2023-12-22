@@ -9,6 +9,9 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.0.6 - Comming Soon ( DEV Support Now )
+- Remove Min 1 limit When setting up Node Speedlimit
+- Statistics on the number of invited people per account and find out who has been invited by this account
+- Add Coupon in detal
 
 ### v3.0.5
 - Update Auto Change RecordID and IP on AutoDNS

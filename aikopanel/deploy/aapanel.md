@@ -36,6 +36,7 @@ The above environment version numbers are minimum requirements and may be higher
 3. Remove prohibited functions
 
 - aaPanel Panel > App Store > PHP 7.4 Click Setting > Disabled functions will be removed from the list.
+
   - `putenv`
   - `proc_open`
   - `pcntl_alarm`
@@ -99,7 +100,7 @@ location ~ .*\.(js|css)?$
 7. Configure a scheduled task
 
 - aaPanel Panel > Cron. - In Type of Task, select Shell Script, fill in AikoPanel - in Name of Task, select N Minutes in Period, select N Minutes 1 Minute
-  , fill in PHP `/www/wwwroot/path/artisan schedule:run` in Script
+  , fill in PHP `php /www/wwwroot/AikoPanel/artisan schedule:run` in Script
   content
 - Based on the above information, add a scheduled task that is executed every 1 minute.
 
@@ -110,7 +111,7 @@ location ~ .*\.(js|css)?$
 - aaPanel Panel > App Store > Tools
 
 - Find the Supervisor to install, and after the installation is completed, click to fill in as follows `Setting > Add Daemon` - In Name, fill in AikoPanel , select www in Run User,
-  select Site Directory in Start Command, fill in php artisan horizon, fill in 1 in Processes
+  select Site Directory in Start Command, fill in `php artisan horizon`, fill in 1 in Processes
 - After filling in, click Confirm to add and run.
 
 # frequently asked questions
