@@ -8,7 +8,10 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.0.7 - DEV
+### v3.0.8 - DEV
+
+### v3.0.7
+- hotfix bug 
 
 ### v3.0.6
 - Remove Min 1 limit When setting up Node Speedlimit
