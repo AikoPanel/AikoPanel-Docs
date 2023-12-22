@@ -8,7 +8,9 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.0.5 - Comming Soon ( DEV Support Now )
+### v3.0.6 - Comming Soon ( DEV Support Now )
+
+### v3.0.5
 - Update Auto Change RecordID and IP on AutoDNS
 - Add Count Plan ( Current Used / Total Buy Plan)
 - Refactor Get Count in Plan User and Plan Admin ( Typo Bug )
