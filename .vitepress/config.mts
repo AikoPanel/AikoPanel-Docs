@@ -47,6 +47,12 @@ export default defineConfig({
           ],
         },
         {
+          text: 'Function',
+          items: [
+            { text: 'Auto DNS', link: '/aikopanel/function/autodns.md' },
+          ],
+        },
+        {
           text: 'Information',
           items: [
             { text: 'Node', link: '/aikopanel/Information/node.md' },
@@ -77,6 +83,12 @@ export default defineConfig({
             { text: 'V2board v1.7.4', link: '/vi/aikopanel/migrate/v2board-v1.7.4.md'},
             { text: 'V2board v1.7.3', link: '/vi/aikopanel/migrate/v2board-v1.7.3.md'},
             { text: 'Nflash', link: '/vi/aikopanel/migrate/nflash.md'},
+          ],
+        },
+        {
+          text: 'Chức năng',
+          items: [
+            { text: 'Auto DNS', link: '/vi/aikopanel/function/autodns.md' },
           ],
         },
         {
