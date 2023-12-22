@@ -16,6 +16,7 @@
 - Add Option Plan 1 days
 - Support Mysql ^8 And MariaDB ^10.7
 - Add filter by order code
+- Add Node Speed Limit
 
 ### v3.0.4
 - Fixed the issue with Trojan With transport (WS, GRPC).
