@@ -8,10 +8,11 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.0.6 - Comming Soon ( DEV Support Now )
+### v3.0.6
 - Bỏ giới hạn Min 1 Khi setup Node Speedlimit
 - Thống kê số lượng người được mời trên mỗi tài khoản và tìm kiếm người nào đã được Tk này mời
 - thêm mã giảm giá ở Admin page mục order
+- Fix lỗi khi dùng Trojan ( WS và GRPC )
 
 ### v3.0.5
 - Cập nhật tự động thay đổi RecordID và IP trên AutoDNS
