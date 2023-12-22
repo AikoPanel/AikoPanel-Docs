@@ -13,7 +13,6 @@
 - Cập nhật URL Quantumut X cho IDAPPLE
 - Thêm chức năng tự động xóa người dùng không hoạt động quá 30 ngày (Thiết lập thời gian xóa trong trang quản trị)
 
-
 ### v3.0.7
 - hotfix bug
 
