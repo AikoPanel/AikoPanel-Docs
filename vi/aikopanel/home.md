@@ -9,6 +9,10 @@
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
 ### v3.0.8 - DEV
+- Thêm bộ lọc cho số lượng người dùng được mời
+- Cập nhật URL Quantumut X cho IDAPPLE
+- Thêm chức năng tự động xóa người dùng không hoạt động quá 30 ngày (Thiết lập thời gian xóa trong trang quản trị)
+
 
 ### v3.0.7
 - hotfix bug

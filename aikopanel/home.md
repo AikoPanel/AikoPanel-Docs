@@ -9,6 +9,9 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.0.8 - DEV
+- Add sorter for invited user count
+- Update URL Quantumut X For IDAPPLE
+- Add Auto Clear user not Active over 30 days ( Setup time Delete in admin Page )
 
 ### v3.0.7
 - hotfix bug 
