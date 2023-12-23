@@ -30,3 +30,5 @@
 *In the 'Zone Resources' section, choose the last option for your domain, then click 'Continue to Summary'.*
 
 - 4: Once saved, it will display the token. Copy and paste this token into the admin web like the ZoneID, and that's it! 
+
+*Note: When using auto DNS, the Server Address on the node must use Domain*

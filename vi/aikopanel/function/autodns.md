@@ -32,4 +32,6 @@
 
 *mục Zone Resources bạn chọn ô cuối là domain của bạn xong bấm Continute to Summary*
 
-- 4: Sua khi lưu nó sẽ hiện ra token và dán token vào admin web như ZoneID là xong nhé
+- 4: khi lưu nó sẽ hiện ra token và dán token vào admin web như ZoneID là xong nhé
+
+*lưu ý: Khi sử dụng auto DNS thì phần Địa Chỉ Server trên node thì phải sử dụng Domain*
