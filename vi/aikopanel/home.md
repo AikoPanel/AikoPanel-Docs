@@ -14,6 +14,7 @@
 - Thêm chức năng tự động xóa người dùng không hoạt động quá 30 ngày (Thiết lập thời gian xóa trong trang quản trị)
 - Tối ưu hóa sao lưu cơ sở dữ liệu Logic lệnh
 - Thêm bot Thống kê máy chủ online
+- Thêm nút Kiểm tra trực tuyến ( Online , Offline và Tắt khi không hoạt động )
 
 ### v3.0.7
 - hotfix bug
