@@ -8,13 +8,16 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.0.8 - DEV
+### v3.0.9
+
+### v3.0.8
 - Add filter for number of invited users
 - Updated Quantumut X URL for IDAPPLE
 - Add function to automatically delete users who have been inactive for more than 30 days (Set deletion time in admin page)
 - Optimized database backup command logic
 - Add online server statistics bot
 - Add Check node Online ( Online , Offline and Turn off when not active )
+- Update Admin Page And User Page
 
 ### v3.0.7
 - hotfix bug 
