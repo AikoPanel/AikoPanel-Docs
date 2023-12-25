@@ -8,7 +8,20 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.0.9 - DEV
+### v3.0.10 - DEV
+
+### v3.0.9
+- Sửa lỗi bot (Tự động tắt Node sắp có - Hiện đang thử nghiệm)
+- Tái cấu trúc sao lưu cơ sở dữ liệu
+- Tái cấu trúc GetAppleID
+- Thêm đăng ký IP
+- Hiển thị thông tin Coupon
+- Sửa lỗi di cư từ v2board v1.7.4
+- Thêm thời gian phiên cho quản trị viên
+- Cập nhật giao diện người dùng
+- Cập nhật chế độ bảo trì
+- Sửa lỗi chính tả SNI
+- Sửa lỗi đếm Appleid khi rỗng
 
 ### v3.0.8
 - Thêm bộ lọc cho số lượng người dùng được mời

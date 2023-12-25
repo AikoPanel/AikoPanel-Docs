@@ -8,7 +8,20 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.0.9 - DEV
+### v3.0.10 - DEV
+
+### v3.0.9
+- Fix bot ( Auto Off Node Comming soon - Now Beta )
+- Refactor Database backup
+- Refactor GetAppleID
+- Add register_ip 
+- Show info Coupon
+- Fix migrate of v2board v1.7.4
+- Add Session Time For admin
+- update Frontend
+- Update Maintenance mode
+- Edit Typo SNI
+- Fix null count Appleid
 
 ### v3.0.8
 - Add filter for number of invited users
