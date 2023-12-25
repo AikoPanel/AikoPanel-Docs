@@ -8,7 +8,8 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.0.10 - DEV
+### v3.1.0 - Dev
+- Restructuring the online node report (report to Admin ID and Group Admin - Custom, Report to group user)
 
 ### v3.0.9
 - Fix bot ( Auto Off Node Comming soon - Now Beta )

@@ -8,7 +8,8 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.0.10 - DEV
+### v3.1.0 - DEV
+- Tái cấu trúc lại báo node online ( báo cho Admin ID và Group Admin - Custom, Báo tới group user )
 
 ### v3.0.9
 - Sửa lỗi bot (Tự động tắt Node sắp có - Hiện đang thử nghiệm)
