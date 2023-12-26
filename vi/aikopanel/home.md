@@ -9,7 +9,17 @@
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
 ### v3.1.0 - DEV
-- Tái cấu trúc lại báo node online ( báo cho Admin ID và Group Admin - Custom, Báo tới group user )
+- **Tái cấu trúc Hệ thống Thông báo Node Trực tuyến**: Chỉnh sửa hệ thống để thông báo cho cả ID quản trị viên và nhóm quản trị với các cài đặt tùy chỉnh, đồng thời cảnh báo cho các nhóm người dùng.
+- **Thêm Bot Thông báo Node Trực tuyến Hàng Ngày**: Triển khai bot gửi cập nhật hàng ngày về các node trực tuyến, với tùy chọn cho quản trị viên chỉnh sửa thời gian.
+- **Thêm Bot Thông báo Lượng GB Sử dụng Hàng Ngày**: Tạo bot báo cáo lượng GB sử dụng mỗi ngày, với cài đặt thời gian có thể chỉnh sửa bởi quản trị viên.
+- **Nâng cao Thông báo Sử dụng GB Hàng Ngày**: Bao gồm bot chi tiết hơn để báo cáo lượng GB sử dụng hàng ngày, một lần nữa với thời gian có thể chỉnh sửa bởi quản trị viên.
+- **Triển khai Kiểm tra Hàng Giờ Great Firewall của Trung Quốc (GFW)**: Thiết lập hệ thống kiểm tra trạng thái GFW ở Trung Quốc mỗi giờ.
+- **Hỗ trợ HTML trong Thông điệp Thông báo**: Nâng cấp hệ thống thông báo để hỗ trợ nội dung HTML trong các thông báo.
+- **Thêm Các Lệnh 'Start' và 'Help' vào Bot Telegram**: Giới thiệu các lệnh này để cải thiện tương tác người dùng với bot Telegram.
+- **Giải quyết Vấn đề Hiển thị Dữ liệu trong Shadowrocket**: Sửa lỗi ảnh hưởng đến hiển thị dữ liệu trong ứng dụng Shadowrocket.
+- **Sửa Lỗi trong ClashPC và V2rayN**: Xử lý và giải quyết các vấn đề hiện có trong ClashPC và V2rayN.
+- **Tái cấu trúc Chức năng AppleID**: Tổng tu chỉnh tính năng AppleID hiện tại để cải thiện hiệu suất và khả năng sử dụng.
+- **Thêm Tuyến đường cho Ứng dụng Sing-box**: Triển khai tính năng định tuyến mới cho ứng dụng Sing-box.
 
 ### v3.0.9
 - Sửa lỗi bot (Tự động tắt Node sắp có - Hiện đang thử nghiệm)

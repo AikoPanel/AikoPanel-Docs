@@ -9,7 +9,17 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.1.0 - Dev
-- Restructuring the online node report (report to Admin ID and Group Admin - Custom, Report to group user)
+-  **Restructure Online Node Notification System**: Modify the system to notify both admin ID and group admin with custom settings, and to alert user groups.
+-  **Add Bot for Daily Online Node Notifications**: Implement a bot that sends daily updates about online nodes, with an option for the admin to edit the timing.
+-  **Add Bot for Daily GB Usage Notifications**: Create a bot that reports the amount of GB used each day, with editable timing settings for the admin.
+-  **Enhanced Daily GB Usage Notifications**: Include a more detailed bot for reporting daily GB usage, again with admin-editable timing.
+-  **Implement Hourly Great Firewall of China (GFW) Checks**: Set up a system to check the GFW status in China every hour.
+-  **Support HTML in Notification Messages**: Upgrade the notification system to support HTML content in notices.
+-  **Add 'Start' and 'Help' Commands to Telegram Bot**: Introduce these commands to improve user interaction with the Telegram bot.
+-  **Resolve Data Display Issue in Shadowrocket**: Fix a bug affecting data display in the Shadowrocket app.
+-  **Fix Bugs in ClashPC and V2rayN**: Address and resolve existing issues in ClashPC and V2rayN.
+-  **Restructure AppleID Functionality**: Overhaul the current AppleID feature for improved performance and usability.
+-  **Add Route for Sing-box App**: Implement a new routing feature for the Sing-box application.
 
 ### v3.0.9
 - Fix bot ( Auto Off Node Comming soon - Now Beta )
