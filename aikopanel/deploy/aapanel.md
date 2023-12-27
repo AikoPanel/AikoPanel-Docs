@@ -2,9 +2,11 @@
 
 ## Env
 
-The minimum configuration requirement is 2Core/4GB Ram For V3
+Minimum For AikoPanel V3 ( v3.1.0+ )
+Core: 1 Core ( AMD 7763 or same )
+Ram: 2GB (With Mysql 8+) or 4GB (With MariaDB 10.7+)
+SSD: 20GB+
 
-Để bổ sung thông tin hỗ trợ MySQL 8.0 vào bảng bạn đã cung cấp, bạn có thể chỉnh sửa như sau:
 
 |  Environment  |       Version        |
 | :-----------: | :------------------: |

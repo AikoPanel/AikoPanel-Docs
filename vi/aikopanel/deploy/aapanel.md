@@ -2,7 +2,10 @@
 
 ## Môi trường
 
-Yêu cầu cấu hình tối thiểu là 2Core/4GB Ram cho V3
+Tối thiểu cho AikoPanel V3 ( v3.1.0+ )
+Lõi: 1 lõi (AMD 7763 hoặc tương tự)
+Ram: 2GB (Với Mysql 8+) hoặc 4GB (Với MariaDB 10.7+)
+SSD: 20GB+
 
 | Môi trường | Phiên bản |
 | :--------: | :-------: |
