@@ -9,6 +9,7 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.1.1 - DEV
+-  **User IP Connection Management**: Add a feature to manage user IP connections, allowing administrators to view and manage user IP connections.
 
 ### v3.1.0
 -  **Restructure Online Node Notification System**: Modify the system to notify both admin ID and group admin with custom settings, and to alert user groups.
