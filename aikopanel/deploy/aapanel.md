@@ -3,9 +3,9 @@
 ## Env
 
 Minimum For AikoPanel V3 ( v3.1.0+ )
-Core: 1 Core ( AMD 7763 or same )
-Ram: 2GB (With Mysql 8+) or 4GB (With MariaDB 10.7+)
-SSD: 20GB+
+- Core: 1 Core ( AMD 7763 or same )
+- Ram: 2GB (With Mysql 8+) or 4GB (With MariaDB 10.7+)
+- SSD: 20GB+
 
 
 |  Environment  |       Version        |
@@ -16,8 +16,6 @@ SSD: 20GB+
 |    MySQL      |         8.0+         |
 |     Redis     |         7.0+         |
 |     Nginx     |        1.21+         |
-
-Bằng cách này, bạn rõ ràng chỉ ra rằng hệ thống của bạn hỗ trợ cả MariaDB 10.7 trở lên và MySQL 8.0.
 
 There are alternatives to the above environments, for example, nginx you can use caddy
 
