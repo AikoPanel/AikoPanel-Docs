@@ -8,7 +8,9 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.0 - DEV
+### v3.1.1 - DEV
+
+### v3.1.0
 - **Tái cấu trúc Hệ thống Thông báo Node Trực tuyến**: Chỉnh sửa hệ thống để thông báo cho cả ID quản trị viên và nhóm quản trị với các cài đặt tùy chỉnh, đồng thời cảnh báo cho các nhóm người dùng.
 - **Thêm Bot Thông báo Node Trực tuyến Hàng Ngày**: Triển khai bot gửi cập nhật hàng ngày về các node trực tuyến, với tùy chọn cho quản trị viên chỉnh sửa thời gian.
 - **Thêm Bot Thông báo Lượng GB Sử dụng Hàng Ngày**: Tạo bot báo cáo lượng GB sử dụng mỗi ngày, với cài đặt thời gian có thể chỉnh sửa bởi quản trị viên.
@@ -20,6 +22,7 @@
 - **Sửa Lỗi trong ClashPC và V2rayN**: Xử lý và giải quyết các vấn đề hiện có trong ClashPC và V2rayN.
 - **Tái cấu trúc Chức năng AppleID**: Tổng tu chỉnh tính năng AppleID hiện tại để cải thiện hiệu suất và khả năng sử dụng.
 - **Thêm Tuyến đường cho Ứng dụng Sing-box**: Triển khai tính năng định tuyến mới cho ứng dụng Sing-box.
+- **Trang người dùng**: Tối ưu hóa giao diện người dùng
 
 ### v3.0.9
 - Sửa lỗi bot (Tự động tắt Node sắp có - Hiện đang thử nghiệm)
