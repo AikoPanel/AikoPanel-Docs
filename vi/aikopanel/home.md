@@ -8,8 +8,12 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.1 - DEV
+### v3.1.2 - DEV
+
+### v3.1.1
 - **Quản lý IP kết nối của người dùng**: Thêm tính năng quản lý IP kết nối của người dùng, cho phép quản trị viên xem và quản lý IP kết nối của người dùng.
+- **Thêm trang Nhân viên**: Thêm trang Nhân viên để quản trị viên có thể quản lý nhân viên của mình.
+- **Fix lỗi**: Sửa lỗi trong phiên bản trước. 
 
 ### v3.1.0
 - **Tái cấu trúc Hệ thống Thông báo Node Trực tuyến**: Chỉnh sửa hệ thống để thông báo cho cả ID quản trị viên và nhóm quản trị với các cài đặt tùy chỉnh, đồng thời cảnh báo cho các nhóm người dùng.
