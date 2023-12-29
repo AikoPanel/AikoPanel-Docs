@@ -1,5 +1,9 @@
 # Cập nhật AikoPanel
 
+## Đề Nghị Cập Nhật
+
+- Bật Chế Độ Phát Triển trong Cloudflare nếu bạn đang sử dụng nó.
+
 ## Phát Hành Cập Nhật
 
 - Sau khi đăng nhập vào máy chủ qua SSH, truy cập vào đường dẫn của trang web như: /www/wwwroot/ Tên miền của trang web của bạn.

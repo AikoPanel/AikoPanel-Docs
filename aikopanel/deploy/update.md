@@ -1,5 +1,10 @@
 # Update AikoPanel
 
+## Recommended Update
+
+- Turn on Developer Mode in the Cloudflare if you are using it.
+
+
 ## Update Release
 
 - After logging in to the server via SSH, access the site path such as: /www/wwwroot/ Your site domain name.
