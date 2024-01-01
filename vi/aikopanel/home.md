@@ -8,7 +8,12 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.2 - DEV
+### v3.1.3 - DEV
+
+### v3.1.2
+- **Sửa lỗi**: Sửa lỗi trong phiên bản trước.
+- **Tái cấu trúc AutoDNS**: Tái cấu trúc AutoDNS để cải thiện hiệu suất và khả năng sử dụng.
+- **Tái cấu trúc Backup Database**: Tái cấu trúc lệnh sao lưu cơ sở dữ liệu để cải thiện hiệu suất và khả năng sử dụng.
 
 ### v3.1.1
 - **Quản lý IP kết nối của người dùng**: Thêm tính năng quản lý IP kết nối của người dùng, cho phép quản trị viên xem và quản lý IP kết nối của người dùng.
