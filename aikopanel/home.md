@@ -14,7 +14,6 @@
 - **Fix Bugs**: Fix bugs in previous version.
 - **Restructure AutoDNS**: Restructure AutoDNS to improve performance and usability.
 - **Restructure Backup Database**: Restructure the database backup command to improve performance and usability.
-- **Delete GFW**: Delete GFW.
 
 ### v3.1.1
 - **User IP Connection Management**: Add a feature to manage user IP connections, allowing administrators to view and manage user IP connections.
