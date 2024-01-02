@@ -9,6 +9,9 @@
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
 ### v3.1.3 - DEV
+- **Sửa lỗi**: Sửa lỗi trong phiên bản trước.
+- **Tái cấu trúc SNI Plan**: Tái cấu trúc SNI Plan để cải thiện hiệu suất và khả năng sử dụng.
+- **Thay đổi cấu trúc Traffic**: Tối ưu hóa cấu trúc traffic để cải thiện hiệu suất và khả năng sử dụng.
 
 ### v3.1.2
 - **Sửa lỗi**: Sửa lỗi trong phiên bản trước.

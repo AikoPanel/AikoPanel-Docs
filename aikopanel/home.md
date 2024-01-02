@@ -9,6 +9,9 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.1.3 - DEV
+- **Fix Bugs**: Fix bugs in previous version.
+- **Refactor SNI Plan**: Refactor SNI Plan to improve performance and usability.
+- **Change Struc Traffic**: Optimal traffic structure to improve performance and usability.
 
 ### v3.1.2
 - **Fix Bugs**: Fix bugs in previous version.
