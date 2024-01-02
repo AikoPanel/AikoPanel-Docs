@@ -12,6 +12,7 @@
 - **Sửa lỗi**: Sửa lỗi trong phiên bản trước.
 - **Tái cấu trúc SNI Plan**: Tái cấu trúc SNI Plan để cải thiện hiệu suất và khả năng sử dụng.
 - **Thay đổi cấu trúc Traffic**: Tối ưu hóa cấu trúc traffic để cải thiện hiệu suất và khả năng sử dụng.
+- **Thêm tìm kiếm Nhân viên**: Thêm tìm kiếm Nhân viên để quản trị viên có thể tìm kiếm nhân viên của mình.
 
 ### v3.1.2
 - **Sửa lỗi**: Sửa lỗi trong phiên bản trước.

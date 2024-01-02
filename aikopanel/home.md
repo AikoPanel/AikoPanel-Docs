@@ -12,6 +12,7 @@
 - **Fix Bugs**: Fix bugs in previous version.
 - **Refactor SNI Plan**: Refactor SNI Plan to improve performance and usability.
 - **Change Struc Traffic**: Optimal traffic structure to improve performance and usability.
+- **Add Search Staff**: Add a feature to search for staff so admins can search for their staff.
 
 ### v3.1.2
 - **Fix Bugs**: Fix bugs in previous version.
