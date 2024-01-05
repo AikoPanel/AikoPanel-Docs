@@ -57,7 +57,7 @@ The above environment version numbers are minimum requirements and may be higher
 
 ```
 chattr -i .user.ini
-rm -rf .htaccess 404.html index.html .user.ini
+rm -rf .htaccess 404.html index.html .user.ini .well-known
 ```
 
 - Execute the command to clone from Github to the current directory.

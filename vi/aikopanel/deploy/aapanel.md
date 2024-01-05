@@ -55,7 +55,7 @@ Các số phiên bản môi trường trên chỉ là yêu cầu tối thiểu v
 
 ```
 chattr -i .user.ini
-rm -rf .htaccess 404.html index.html .user.ini
+rm -rf .htaccess 404.html index.html .user.ini .well-known
 
 ```
 
