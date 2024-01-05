@@ -8,7 +8,14 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.1.4 - DEV
+### v3.1.5 - DEV
+
+### v3.1.4
+- **Optimize User Interface**: Optimize the user interface.
+- **Refactor config Admin Page**: Refactor config Admin Page to improve performance and usability.
+- **Fix bug statistics when deleting users in Admin**: Fix bug statistics when deleting users in Admin.
+- **Update support app V2rayNG better**: Update support app V2rayNG better.
+- **Support app Streisand**: Support app Streisand.
 
 ### v3.1.3
 - **Fix Bugs**: Fix bugs in previous version.
@@ -16,11 +23,6 @@
 - **Change Struc Traffic**: Optimal traffic structure to improve performance and usability.
 - **Add Search Staff**: Add a feature to search for staff so admins can search for their staff.
 - **Support Trojan (WS) for Loon, QuantumultX and Surge**: Support Trojan (WS) for Loon, QuantumultX and Surge.
-- **Optimize User Interface**: Optimize the user interface.
-- **Refactor config Admin Page**: Refactor config Admin Page to improve performance and usability.
-- **Fix bug statistics when deleting users in Admin**: Fix bug statistics when deleting users in Admin.
-- **Update support app V2rayNG better**: Update support app V2rayNG better.
-- **Support app Streisand**: Support app Streisand.
 
 ### v3.1.2
 - **Fix Bugs**: Fix bugs in previous version.
