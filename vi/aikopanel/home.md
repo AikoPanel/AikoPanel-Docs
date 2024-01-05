@@ -8,11 +8,19 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.3 - DEV
+### v3.1.4 - DEV
+
+### v3.1.3
 - **Sửa lỗi**: Sửa lỗi trong phiên bản trước.
 - **Tái cấu trúc SNI Plan**: Tái cấu trúc SNI Plan để cải thiện hiệu suất và khả năng sử dụng.
 - **Thay đổi cấu trúc Traffic**: Tối ưu hóa cấu trúc traffic để cải thiện hiệu suất và khả năng sử dụng.
 - **Thêm tìm kiếm Nhân viên**: Thêm tìm kiếm Nhân viên để quản trị viên có thể tìm kiếm nhân viên của mình.
+- **Hỗ trợ Trojan (WS) cho Loon, QuantumultX và Surge**: Hỗ trợ Trojan (WS) cho Loon, QuantumultX và Surge.
+- **Tối ưu giao diện người dùng**: Tối ưu hóa giao diện người dùng.
+- **Tái cấu trúc config Admin Page**: Tái cấu trúc config Admin Page để cải thiện hiệu suất và khả năng sử dụng.
+- **Sửa lỗi thống kê khi xoá người dùng ở Admin**: Sửa lỗi thống kê khi xoá người dùng ở Admin.
+- **Cập nhật hỗ trợ app V2rayNG tốt hơn**: Cập nhật hỗ trợ app V2rayNG tốt hơn.
+- **Hỗ trợ app Streisand**: Hỗ trợ app Streisand.
 
 ### v3.1.2
 - **Sửa lỗi**: Sửa lỗi trong phiên bản trước.
