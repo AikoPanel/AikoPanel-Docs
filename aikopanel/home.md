@@ -6,6 +6,11 @@
 - It uses the Aiko-Server backend [Aiko-Server](https://github.com/AikoPanel/AikoServer) with the AikoPanel type.
 - Please note that AikoPanel is not free.
 
+## Demo AikoPanel
+- [AikoPanel - User](https://aikopanel.com) - Account: `admin@admin` - Password: `12345678`
+- [AikoPanel - Staff](https://aikopanel.com/ctvaikopanel) - Account: `admin@admin` - Password: `12345678`
+- [AikoPanel - Admin](https://aikopanel.com/aikopanel) - Account: `admin@admin` - Password: `12345678`
+
 ## Changelog of AikoPanel Verison 3
 
 ### v3.1.6 - Dev

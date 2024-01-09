@@ -6,6 +6,11 @@
 - Sử dụng backend Aiko-Server [Aiko-Server](https://github.com/AikoPanel/AikoServer) với loại AikoPanel
 - Và lưu ý AikoPanel không Free
 
+## Demo AikoPanel
+- [AikoPanel - Nguời dùng](https://aikopanel.com) - Tài khoản: `admin@admin` - Mật khẩu: `12345678`
+- [AikoPanel - Nhân Viên ( Cộng Tác Viên )](https://aikopanel.com/ctvaikopanel) - Tài khoản: `admin@admin` - Mật khẩu: `12345678`
+- [AikoPanel - Admin](https://aikopanel.com/aikopanel) - Tài khoản: `admin@admin` - Mật khẩu: `12345678`
+
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
 ### v3.1.6 - Dev
