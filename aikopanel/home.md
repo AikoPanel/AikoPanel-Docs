@@ -8,7 +8,18 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.1.5 - DEV
+### v3.1.6 - Dev
+
+### v3.1.5
+- **Support app V2Box**: Support app V2Box.
+- **Fix bug update when change SNI**: Fix bug update when change SNI.
+- **Fix bug calculate value traffic**: Fix bug calculate value traffic.
+- **Fix trojan WS and GRPC**: Fix trojan WS and GRPC on Qx, Loon and Surge.
+- **Show count get APPLEID**: Show count get APPLEID.
+- **Refactor config Admin Page** Refactor config Admin Page to improve performance and usability.
+- **Add Application Page for user**: Add Application Page for user to help user can download their app faster and easier.
+
+
 
 ### v3.1.4
 - **Optimize User Interface**: Optimize the user interface.

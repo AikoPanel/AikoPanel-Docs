@@ -8,7 +8,17 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.5 - DEV
+### v3.1.6 - Dev
+
+### v3.1.5
+- **Hỗ trợ app V2Box**: Hỗ trợ app V2Box.
+- **Fix lỗi update khi đổi SNI**: Fix lỗi update khi đổi SNI.
+- **Fix lỗi tính toán giá trị băng thông**: Fix lỗi tính toán giá trị băng thông.
+- **Fix trojan WS và GRPC**: Fix trojan WS và GRPC trên Qx, Loon và Surge.
+- **Hiển thị số lần lấy APPLEID**: Hiển thị số lần lấy APPLEID.
+- **Tái cấu trúc config Admin Page** Tái cấu trúc config Admin Page để cải thiện hiệu suất và khả năng sử dụng.
+- **Thêm Application Page cho người dùng**: Thêm Application Page cho người dùng giúp người dùng có thể tải xuống ứng dụng của mình nhanh hơn và dễ dàng hơn.
+
 
 ### v3.1.4
 - **Hỗ trợ Trojan (WS) cho Loon, QuantumultX và Surge**: Hỗ trợ Trojan (WS) cho Loon, QuantumultX và Surge.
