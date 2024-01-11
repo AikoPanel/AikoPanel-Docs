@@ -56,6 +56,10 @@ export default defineConfig({
           ],
         },
         {
+          text: "API",
+          items: [{ text: "Change SNI", link: "/aikopanel/api/sni.md" }],
+        },
+        {
           text: "Function",
           items: [{ text: "Auto DNS", link: "/aikopanel/function/autodns.md" }],
         },
@@ -99,6 +103,12 @@ export default defineConfig({
               link: "/vi/aikopanel/migrate/v2board-v1.7.3.md",
             },
             { text: "Nflash", link: "/vi/aikopanel/migrate/nflash.md" },
+          ],
+        },
+        {
+          text: "API",
+          items: [
+            { text: "Thay đổi SNI", link: "/vi/aikopanel/api/sni.md" },
           ],
         },
         {
