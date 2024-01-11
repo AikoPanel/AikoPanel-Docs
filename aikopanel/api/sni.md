@@ -1,4 +1,4 @@
-# Public api AikoPanel
+# Api Change SNI
 
 ## 1. Change SNI (Server Name Indication)
 

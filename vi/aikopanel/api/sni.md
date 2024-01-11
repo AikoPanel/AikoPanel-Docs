@@ -1,4 +1,4 @@
-# SNI (Server Name Indication)
+# API thay đổi SNI
 
 ## 1. Thay đổi SNI (Server Name Indication)
 
