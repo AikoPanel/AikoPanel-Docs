@@ -6,6 +6,15 @@
 
 - Sni you want to change
 
+### Some quick Custom SNI
+
+| SNI    | Description    | Use           |
+| ------ | -------------- | ------------- |
+| ff     | Free Fire      | `&sni=ff`     |
+| lq     | Liên Quân      | `&sni=lq`     |
+| tiktok | Tiktok         | `&sni=tiktok` |
+| jp     | Japan Sorfbank | `&sni=jp`     |
+
 ### Perform
 
 Link your current registration and add `&sni=domain.com` to the end of the link.
