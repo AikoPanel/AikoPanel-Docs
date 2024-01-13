@@ -15,7 +15,26 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.6 - Dev
+### v3.1.7 - Phiên bản thử nghiệm
+
+### v3.1.6
+- **Tái cấu trúc phương thức đặt lại băng thông**: Cho phép admin có thể đặt lại băng thông của từng người dùng.
+- **Fix lỗi URL ứng dụng sing-box**: Fix lỗi URL ứng dụng sing-box.
+- **Chỉ cho phép install với git**: Chỉ cho phép install với git để tránh lỗi khi cài đặt (aaPanel).
+- **Sửa lỗi Version Hysteria 1.0.0**: Sửa lỗi Version Hysteria v1
+- **Fix lỗi truy cập vào trang nhân viên**: Fix lỗi truy cập vào trang nhân viên.
+- **Cập nhật thêm xoá người dùng tự động**: Có thể tự động xoá người có gói hết hạn trên 60 ngày không hoạt động và không login vào web.
+- **Thay đổi phương thức báo cáo doanh thu tới quản trị viên**: Thay đổi phương thức báo cáo doanh thu tới quản trị viên.
+- **Thêm phương thức đặt giá trị SNI mới**: Thêm phương thức đặt giá trị SNI mới và đã cập nhật trong hướng dẫn.
+- **Thêm một số phương thức tuỳ chỉnh SNI nhanh hơn**: Thêm một số phương thức tuỳ chỉnh SNI nhanh hơn.
+- **Hiển thị phương thức khi có update về Database**: Hiển thị phương thức khi có update về Database.
+- **Thay đổi thứ tự ưu tiên về việc sắp xếp máy chủ**: Thay đổi thứ tự ưu tiên về việc sắp xếp máy chủ ưu tiên TLS trước.
+- **Fix lỗi thông tin hiển thị khi người dùng cập nhật liên kết đăng kí**: Fix lỗi thông tin hiển thị khi người dùng cập nhật liên kết đăng kí ( cụ thể là SNI ).
+- **Hỗ trợ giá trị SNI sẵn khi set SNI theo gói**: Hỗ trợ giá trị SNI sẵn khi set SNI theo gói.
+- **Fix lỗi host trên V2rayN**: Fix lỗi host trên V2rayN.
+- **Thêm thông báo tới Telegram**: Thêm thông báo tới Telegram khi có người dùng hết hạn gói hoặc có mức lưu lượng vượt quá 80%.
+- **Fix lỗi lưu trữ Ipv6**: Fix lỗi lưu trữ Ipv6.
+- **Gỡ ban `TàiML`**: TàiML đã ăn năn và xin lỗi rất nhiều về việc đã làm, nên mình đã gỡ ban cho anh ấy.
 
 ### v3.1.5
 - **Hỗ trợ app V2Box**: Hỗ trợ app V2Box.

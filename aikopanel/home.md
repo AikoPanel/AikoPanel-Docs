@@ -15,7 +15,26 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.1.6 - Dev
+### v3.1.7 - Beta Version
+
+### v3.1.6
+- **Restructure Reset Traffic Method**: Allow admin to reset traffic of each user.
+- **Fix URL error of sing-box app**: Fix URL error of sing-box app.
+- **Only allow install with git**: Only allow install with git to avoid error when install (aaPanel).
+- **Fix Hysteria Version 1.0.0**: Fix Hysteria Version 1.0.0.
+- **Fix error access to staff page**: Fix error access to staff page.
+- **Add auto delete user**: Can auto delete user have plan expired over 60 days and not active and not login to web.
+- **Change method report revenue to admin**: Change method report revenue to admin.
+- **Add method set new SNI value**: Add method set new SNI value and have update in guide.
+- **Add some method custom SNI faster**: Add some method custom SNI faster.
+- **Show method when have update about Database**: Show method when have update about Database.
+- **Change priority order about sort server**: Change priority order about sort server TLS first.
+- **Fix error info display when user update register link**: Fix error info display when user update register link (specifically SNI).
+- **Support SNI value default when set SNI by plan**: Support SNI value default when set SNI by plan.
+- **Fix host error on V2rayN**: Fix host error on V2rayN.
+- **Add notification to Telegram**: Add notification to Telegram when have user plan expired or have traffic over 80%.
+- **Fix error storage Ipv6**: Fix error storage Ipv6.
+- **Unban `TàiML`**: TàiML has repented and apologized a lot for what he did, so I have unbanned him.
 
 ### v3.1.5
 - **Support app V2Box**: Support app V2Box.
