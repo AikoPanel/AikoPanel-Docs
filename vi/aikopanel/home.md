@@ -15,7 +15,21 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.1.7 - Phiên bản thử nghiệm
+### v3.2.1 ( Đang phát triển )
+
+### v3.2.0
+- **Fix: email payments success**: Fix lỗi email khi người dùng thanh toán thành công.
+- **Fix: Lỗi Unblock TàiML**: Fix lỗi không unblock được TàiML.
+- **Feat: Hiển thị Ip**: Hiển thị Ip của người dùng khi đăng nhập vào web lần cuối cùng.
+- **To: Add payment callback error logging**: Thêm lỗi ghi nhận lỗi gọi lại thanh toán.
+- **feat: Added Command (php artisan log:export) export log command**: Thêm lệnh xuất log.
+- **fix: Fix multiple possible transaction security issues**: Sửa nhiều vấn đề bảo mật giao dịch có thể xảy ra.
+- **feat: Add subscription address to support [*-*] expression**: Thêm địa chỉ đăng ký để hỗ trợ biểu thức [*-*].
+- **Refactor: ClientController**: Tối ưu hóa ClientController.
+- **Refactor Sing-box config and Clash config**: Tối ưu hóa cấu hình Sing-box và Clash.
+- **Refactor ServerInfoHandler**: Tối ưu hóa ServerInfoHandler.
+- **Fix: Overdue on Singbox**: Fix lỗi hết hạn trên Singbox.
+- **New: Support Change Config Sing-box**: Hỗ trợ thay đổi cấu hình Sing-box.
 
 ### v3.1.6
 - **Tái cấu trúc phương thức đặt lại băng thông**: Cho phép admin có thể đặt lại băng thông của từng người dùng.

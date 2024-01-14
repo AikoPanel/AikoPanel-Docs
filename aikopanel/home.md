@@ -15,7 +15,21 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.1.7 - Beta Version
+### v3.2.1 - Dev
+
+### v3.2.0
+- **Fix: email payments success**: Fix: email payments success.
+- **Fix: Bug Unblock TàiML**: Fix: bug unblock TàiML.
+- **Feature: Display IP**: Show user's IP address on their last login to the website.
+- **To Do: Add Payment Callback Error Logging**: Implement logging for payment callback errors.
+- **Feature: Added Command (php artisan log:export) to Export Logs**: Introduce a command to export logs.
+- **Fix: Address Multiple Potential Transaction Security Issues**: Resolve various potential transaction security problems.
+- **Feature: Add Subscription Address to Support [*-*] Expression**: Integrate subscription address functionality to support [*-*] expression.
+- **Refactor: ClientController**: Optimize the ClientController.
+- **Refactor: Sing-box and Clash Configuration**: Enhance the configuration of Sing-box and Clash.
+- **Refactor: ServerInfoHandler**: Improve the ServerInfoHandler.
+- **Fix: Overdue on Singbox**: Correct the overdue issue in Singbox.
+- **New: Support for Configuring Sing-box**: Enable support for changing Sing-box configuration.
 
 ### v3.1.6
 - **Restructure Reset Traffic Method**: Allow admin to reset traffic of each user.
