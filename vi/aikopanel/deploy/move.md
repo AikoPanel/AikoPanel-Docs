@@ -1,25 +1,26 @@
-# Migrating AikoPanel to a New Server
+# Chuyển AikoPanel sang máy chủ mới
 
-## Step 1: Backup Data and Configuration
+## Bước 1: Sao lưu dữ liệu và cấu hình
 
-### First, you need to backup AikoPanel's data and configuration.
+### Đầu tiên, bạn cần sao lưu dữ liệu và cấu hình của AikoPanel.
 
-- Copy the config file from the following directory:
+- Sao chép file config ở thư mục sau: 
 
 ```
 {Source Path}/config/aikopanel.php
 ```
 
-- Copy the .env file from the following directory:
+- Sao chép file .env ở thư mục sau:
 
 ```
 {Source Path}/.env
 ```
 
-## Step 2: Reinstall AikoPanel Following Previous Instructions
+## Bước 2: Cài lại AikoPanel theo hướng dẫn cũ 
 
-### You need to reinstall AikoPanel according to the previous instructions, but you do not need to create a new database and run the init.sh script.
+### Bạn cần cài lại AikoPanel theo hướng dẫn cũ, nhưng không cần tạo cơ sở dữ liệu mới và chạy script init.sh.
 
-- After git cloning, you need to switch to the master branch and then copy the config file and the .env file you backed up in step 1 into the new directory.
+- Sau khi git clone, bạn cần chuyển đến nhánh master thì bạn coppy file config và file .env đã sao lưu ở bước 1 vào thư mục mới.
 
-- Then, run the update.sh script to update AikoPanel.
+- Sau đó bạn chạy script update.sh để cập nhật AikoPanel.
+
