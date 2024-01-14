@@ -37,6 +37,7 @@ export default defineConfig({
               text: "install With aaPanel",
               link: "/aikopanel/deploy/aapanel.md",
             },
+            { text: "Change Server", link: "/aikopanel/deploy/move.md"}
             { text: "Change Git Source", link: "/aikopanel/deploy/git.md" },
             { text: "Update", link: "/aikopanel/deploy/update.md" },
           ],
@@ -85,6 +86,7 @@ export default defineConfig({
               text: "Cài đặt với aaPanel",
               link: "/vi/aikopanel/deploy/aapanel.md",
             },
+            { text: "Chuyển đổi máy chủ", link: "/vi/aikopanel/deploy/move.md" },
             { text: "Đổi nguồn git", link: "/vi/aikopanel/deploy/git.md" },
             { text: "Cập nhật", link: "/vi/aikopanel/deploy/update.md" },
           ],
