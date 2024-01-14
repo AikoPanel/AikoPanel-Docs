@@ -3,7 +3,7 @@
 ## Step 1: Convert Git Source
 1. Change the Git source URL to the new address:
    ```
-   git remote set-url origin https://github.com/wyx2685/v2board
+   git remote set-url origin https://github.com/AikoPanel/AikoPanel
    ```
 2. Switch to the master branch:
    ```
