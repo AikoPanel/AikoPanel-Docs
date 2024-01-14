@@ -37,6 +37,7 @@ export default defineConfig({
               text: "install With aaPanel",
               link: "/aikopanel/deploy/aapanel.md",
             },
+            { text: "Change Git Source", link: "/aikopanel/deploy/git.md" },
             { text: "Update", link: "/aikopanel/deploy/update.md" },
           ],
         },
@@ -84,6 +85,7 @@ export default defineConfig({
               text: "Cài đặt với aaPanel",
               link: "/vi/aikopanel/deploy/aapanel.md",
             },
+            { text: "Đổi nguồn git", link: "/vi/aikopanel/deploy/git.md" },
             { text: "Cập nhật", link: "/vi/aikopanel/deploy/update.md" },
           ],
         },
@@ -107,9 +109,7 @@ export default defineConfig({
         },
         {
           text: "API",
-          items: [
-            { text: "Thay đổi SNI", link: "/vi/aikopanel/api/sni.md" },
-          ],
+          items: [{ text: "Thay đổi SNI", link: "/vi/aikopanel/api/sni.md" }],
         },
         {
           text: "Chức năng",
