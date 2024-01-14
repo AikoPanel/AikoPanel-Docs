@@ -37,7 +37,7 @@ export default defineConfig({
               text: "install With aaPanel",
               link: "/aikopanel/deploy/aapanel.md",
             },
-            { text: "Change Server", link: "/aikopanel/deploy/move.md"}
+            { text: "Change Server", link: "/aikopanel/deploy/move.md"},
             { text: "Change Git Source", link: "/aikopanel/deploy/git.md" },
             { text: "Update", link: "/aikopanel/deploy/update.md" },
           ],
