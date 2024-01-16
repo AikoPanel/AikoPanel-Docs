@@ -15,7 +15,13 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.2.1 ( Đang phát triển )
+### v3.2.2 - DEV
+
+### v3.2.1
+- **feat: Hiển thị version khi Update**: Hiển thị version khi Update.
+- **fix: Fix lỗi config trên ClashMeta, Clash Verge và Stash**: Fix lỗi config trên ClashMeta, Clash Verge và Stash.
+- **feat: Tái cấu trúc sing-box**: Tái cấu trúc sing-box và config mặc định sử dụng cache_file.
+- **fix: Fix một số lỗi nhỏ trên bản cập nhật trước**: Fix một số lỗi nhỏ trên bản cập nhật trước.
 
 ### v3.2.0
 - **Fix: email payments success**: Fix lỗi email khi người dùng thanh toán thành công.

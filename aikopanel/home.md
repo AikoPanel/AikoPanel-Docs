@@ -15,7 +15,13 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.2.1 - Dev
+### v3.2.2 - DEV
+
+### v3.2.1
+- **feat: Display Version during Update**: Display the version during the update process.
+- **fix: Fix Configuration Issues on ClashMeta, Clash Verge, and Stash**: Address configuration issues on ClashMeta, Clash Verge, and Stash.
+- **feat: Restructure Sing-box**: Restructure the Sing-box and use cache_file as the default configuration.
+- **fix: Address Some Minor Bugs from the Previous Update**: Fix some minor bugs that were present in the previous update.
 
 ### v3.2.0
 - **Fix: email payments success**: Fix: email payments success.
