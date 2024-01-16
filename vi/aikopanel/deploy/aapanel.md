@@ -4,7 +4,7 @@
 
 Tối thiểu cho AikoPanel V3 ( v3.1.0+ )
 - Lõi: 1 lõi (AMD 7763 hoặc tương tự)
-- Ram: 2GB (Với Mysql 8+) hoặc 4GB (Với MariaDB 10.7+)
+- Ram: 2GB (Với Mysql 8+) hoặc 4GB (Với MariaDB 10.7+) [Khuyến nghị]
 - SSD: 20GB+
 
 | Môi trường | Phiên bản |

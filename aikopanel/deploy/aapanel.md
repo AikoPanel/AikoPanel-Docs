@@ -4,7 +4,7 @@
 
 Minimum For AikoPanel V3 ( v3.1.0+ )
 - Core: 1 Core ( AMD 7763 or same )
-- Ram: 2GB (With Mysql 8+) or 4GB (With MariaDB 10.7+)
+- Ram: 2GB (With Mysql 8+) or 4GB (With MariaDB 10.7+) [Recommended]
 - SSD: 20GB+
 
 
