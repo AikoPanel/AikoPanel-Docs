@@ -7,9 +7,16 @@
 - Please note that AikoPanel is not free.
 
 ## Demo AikoPanel ( Beta Version )
+ 
+### Admin Website
 - [AikoPanel - User](https://aikopanel.com) - Account: `admin@aikopanel.com` - Password: `12345678`
 - [AikoPanel - Staff](https://aikopanel.com/ctvaikopanel) - Account: `admin@aikopanel.com` - Password: `12345678`
 - [AikoPanel - Admin](https://aikopanel.com/aikopanel) - Account: `admin@aikopanel.com` - Password: `12345678`
+
+
+### Staff Website
+- [AikoPanel - Staff](https://aiko.games/ctvaikopanel) - Account: `admin@aikopanel.com` - Password: `12345678`
+- [AikoPanel - User](https://aiko.games) - Account: `admin@aikopanel.com` - Password: `12345678`
 
 **Note:** This is a beta version, there may be many errors, if you encounter an error, please create an issue on Github.
 

@@ -7,9 +7,15 @@
 - Và lưu ý AikoPanel không Free
 
 ## Demo AikoPanel ( Phiên bản thử nghiệm )
+
+### Tài khoản Admin
 - [AikoPanel - Nguời dùng](https://aikopanel.com) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
 - [AikoPanel - Nhân Viên ( Cộng Tác Viên )](https://aikopanel.com/ctvaikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
 - [AikoPanel - Admin](https://aikopanel.com/aikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
+
+### Tài khoản Nhân viên
+- [AikoPanel - Nhân Viên ( Cộng Tác Viên )](https://aiko.games/ctvaikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
+- [AikoPanel - Người dùng](https://aiko.games) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
 
 **Lưu ý:** Đây là phiên bản thử nghiệm, có thể có nhiều lỗi, nếu bạn gặp lỗi, vui lòng tạo một vấn đề trên Github.
 
