@@ -15,8 +15,8 @@
 
 
 ### Staff Website
-- [AikoPanel - Staff](https://aiko.games/ctvaikopanel) - Account: `admin@aikopanel.com` - Password: `12345678`
-- [AikoPanel - User](https://aiko.games) - Account: `admin@aikopanel.com` - Password: `12345678`
+- [AikoPanel - Staff](https://aiko.codes/ctvaikopanel) - Account: `admin@aikopanel.com` - Password: `12345678`
+- [AikoPanel - User](https://aiko.codes) - Account: `admin@aikopanel.com` - Password: `12345678`
 
 **Note:** This is a beta version, there may be many errors, if you encounter an error, please create an issue on Github.
 

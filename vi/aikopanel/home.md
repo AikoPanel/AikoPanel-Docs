@@ -14,8 +14,8 @@
 - [AikoPanel - Admin](https://aikopanel.com/aikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
 
 ### Tài khoản Nhân viên
-- [AikoPanel - Nhân Viên ( Cộng Tác Viên )](https://aiko.games/ctvaikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
-- [AikoPanel - Người dùng](https://aiko.games) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
+- [AikoPanel - Nhân Viên ( Cộng Tác Viên )](https://aiko.codes/ctvaikopanel) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
+- [AikoPanel - Người dùng](https://aiko.codes) - Tài khoản: `admin@aikopanel.com` - Mật khẩu: `12345678`
 
 **Lưu ý:** Đây là phiên bản thử nghiệm, có thể có nhiều lỗi, nếu bạn gặp lỗi, vui lòng tạo một vấn đề trên Github.
 
