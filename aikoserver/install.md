@@ -85,8 +85,8 @@ docker pull aikocute/aikocutehotme:latest && docker run --restart=always --name 
 ## Docker-compose installation
 
 ```
-git clone https://github.com/AikoPanel/Aiko-Server-Script.git
-cd Aiko-Server-Script
+git clone https://github.com/AikoPanel/AikoServer.git
+cd AikoServer
 ```
 
 - Edit your configuration file `aiko.yml` and `docker-compose.yml`

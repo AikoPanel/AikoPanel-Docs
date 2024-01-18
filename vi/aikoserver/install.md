@@ -89,8 +89,8 @@ docker pull aikocute/aikocutehotme:latest && docker run --restart=always --name 
 ## Cài đặt Docker-compose
 
 ```
-git clone https://github.com/AikoPanel/Aiko-Server-Script.git
-cd Aiko-Server-Script
+git clone https://github.com/AikoPanel/AikoServer.git
+cd AikoServer
 ```
 
 - Chỉnh sửa tệp cấu hình của bạn `aiko.yml` và `docker-compose.yml`
