@@ -22,7 +22,19 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.2.2 - DEV
+### v3.2.3 (Beta)
+
+### v3.2.2
+- **Refactor License**: Optimize the structure of the License system.
+- **Staff Page: Allow Employees to Create New Accounts**: Introduce a feature that enables staff members to create new user accounts.
+- **Update - Limit Staff Account Creation**: Update to impose restrictions on the number of accounts staff members can create.
+- **Allow Key for Staff**: Implement a unique web key system for staff members.
+- **Support Build Web for Staff**: Provide support for building individual web pages for staff members.
+- **Refactor Get Subscriptions**: Enhance and optimize the structure of the subscription retrieval system.
+- **Fix: Bill Detail Information on Staff Page**: Resolve issues related to detailed billing information on the staff page.
+- **Fix: Migration from Nflash to AikoPanel**: Fix issues encountered during the migration process from Nflash to AikoPanel.
+- **Add - [Telegram: Payment Reports with Additional Payment Gateways]**: Introduce a new feature for reporting payments through Telegram, incorporating additional payment gateways.
+- **Fix - Database Issue from Plan**: Resolve database-related issues originating from the Plan module.
 
 ### v3.2.1
 - **feat: Display Version during Update**: Display the version during the update process.

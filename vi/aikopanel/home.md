@@ -21,7 +21,20 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.2.2 - DEV
+### v3.2.3 - ( Đang phát triển )
+
+### v3.2.2
+- **Refactor License**: Tối ưu hóa cấu trúc License.
+- **Staff Page: Allow Employees to create new accounts**: Thêm tính năng cho phép nhân viên tạo tài khoản mới.
+- **Update - Limit Staff generate Account**: Cập nhật - Giới hạn nhân viên tạo tài khoản.
+- **Allow key for Staff**: Tạo key web riêng cho nhân viên.
+- **Support Build web Staff**: Hỗ trợ build web riêng cho nhân viên.
+- **Refactor Get Subscriptions**: Tối ưu hóa cấu trúc Get Subscriptions.
+- **Fix: info bill detail in staff page**: Fix lỗi thông tin chi tiết hóa đơn trên trang nhân viên.
+- **Fix: Migration form Nflash to AikoPanel**: Fix lỗi di cư từ Nflash sang AikoPanel.
+- **Add - [ Telegram: Payment reports with additional payment gateways ]**: Thêm - [ Telegram: Báo cáo thanh toán với các cổng thanh toán bổ sung ].
+- **Fix - Database form Plan**: Fix lỗi cơ sở dữ liệu từ Plan.
+
 
 ### v3.2.1
 - **feat: Hiển thị version khi Update**: Hiển thị version khi Update.
