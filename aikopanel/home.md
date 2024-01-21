@@ -22,7 +22,10 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.2.3 (Beta)
+### v3.2.4 (Beta)
+
+### v3.2.3
+- **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
 
 ### v3.2.2
 - **Refactor License**: Optimize the structure of the License system.
