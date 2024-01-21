@@ -63,7 +63,10 @@ export default defineConfig({
         },
         {
           text: "Function",
-          items: [{ text: "Auto DNS", link: "/aikopanel/function/autodns.md" }],
+          items: [
+            { text: "Auto DNS", link: "/aikopanel/function/autodns.md" },
+            { text: "Website For Staff", link: "/aikopanel/function/staff.md" }
+        ],
         },
         {
           text: "Information",
@@ -117,6 +120,7 @@ export default defineConfig({
           text: "Chức năng",
           items: [
             { text: "Auto DNS", link: "/vi/aikopanel/function/autodns.md" },
+            { text: "Website cho nhân viên", link: "/vi/aikopanel/function/staff.md" }
           ],
         },
         {
