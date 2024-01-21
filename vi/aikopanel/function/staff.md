@@ -1,0 +1,51 @@
+# Tạo trang web cộng tác viên
+
+## Mô tả chức năng
+- Trang web có thể giúp công tác viên bán trên domain cá nhân của cộng tác viên và bán gói cộng tác viên có thể tạo ra doanh thu cho cộng tác viên ( Gói cần được duyệt bởi admin )
+
+## Chuẩn bị
+- Có 1 domain cá nhân
+
+## Cách setup
+
+### Bước 1: Tạo 1 domain trỏ về IP của node
+
+![AllowDomain](../../../image/function/staff/AllowDomain.png)
+![AllowSubscribe](../../../image/function/staff/AllowSubscribe.png)
+
+**Lưu ý: Domain phải được trỏ về IP của node và mỗi domain phân tách nhau bởi dấu ,**
+
+### Bước 2: Tạo 1 trang web trên node
+- Add thêm 1 site trên WebAdmin ( aapanel ) với path là chung với path domain chính không tạo thêm database và allow ssl + URL rewrite như web chính 
+
+```
+location /downloads {
+}
+
+location / {
+    try_files $uri $uri/ /index.php$is_args$query_string;
+}
+
+location ~ .*\.(js|css)?$
+{
+    expires      1h;
+    error_log off;
+    access_log /dev/null;
+}
+```
+
+### Bước 3: Sau khi tạo xong bạn tạo gói riêng cho cộng tác viên
+
+![PlanOfStaff](../../../image/function/staff/PlanOfStaff.png)
+
+### Bước 4: Tạo 1 tài khoản cộng tác viên
+![CreateStaff](../../../image/function/staff/CreateStaff.png)
+
+- Bạn cần bật chức năng cộng tác viên lên và chọn gói cộng tác viên cho cộng tác viên đó
+
+### Bước 5: Cài đặt đường dẫn quản lý của cộng tác viên
+- Sau khi vào thiết lập hệ thống mục an toàn sẽ có 1 mục là đường dẫn quản lý của cộng tác viên bạn cần điền đường dẫn của trang web cộng tác viên vào đây
+
+![StaffPath](../../../image/function/staff/StaffPath.png)
+
+### Bước 6 : Xong bạn có thể vào trang web cộng tác viên để kiểm tra
