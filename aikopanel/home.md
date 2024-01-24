@@ -23,15 +23,15 @@
 ## Changelog of AikoPanel Verison 3
 
 ### v3.2.4
-- **Sửa lỗi: Giao thức Vless**: Sửa lỗi trong giao thức Vless (VLESS REALITY + VLESS TLS).
-- **Sửa lỗi: Trợ lý Lấy Giấy phép**: Sửa lỗi trong chức năng trợ lý lấy tên miền phụ cho giấy phép.
-- **Cập nhật: Thanh toán cho Nhân viên**: Cập nhật hệ thống thanh toán cho các thành viên nhân viên.
-- **Sửa lỗi: safe_mode_enabled**: Sửa lỗi trong chức năng safe_mode_enabled.
-- **Thêm: Tùy chỉnh tiêu đề và mô tả nhân viên**: Thêm tùy chỉnh tiêu đề nhân viên, mô tả nhân viên, logo, Nhóm Kết nối.
-- **Thêm: Khi đăng ký qua tên miền của cộng tác viên, mã mời của cộng tác viên sẽ được tự động lưu và cập nhật**: Khi đăng ký qua tên miền của cộng tác viên, mã mời của cộng tác viên sẽ được tự động lưu và cập nhật.
-- **Tính năng: Thêm thông báo trên trang Nhân viên**: Thêm thông báo trên trang nhân viên.
-- **Sửa lỗi: Hiển thị thông báo url nhân viên**: Sửa lỗi trong thông báo url nhân viên.
-- **Sửa lỗi: Lưu DB**: Sửa lỗi trong việc lưu cơ sở dữ liệu.
+- **Fix: Vless Protocol**: Fix a bug in the Vless protocol ( VLESS REALITY + VLESS TLS).
+- **Fix: Helper Get License**: Fix a bug in the helper get sub_domain for license.
+- **Update: Payment For Staff**: Update the payment system for staff members.
+- **Fix: safe_mode_enabled**: Fix a bug in the safe_mode_enabled function.
+- **Add: Custom staff_title and staff_description**: Add custom staff_title, staff_description, logo, Connection Group
+- **Add: When registering via a collaborator's domain, the collaborator's invitation code will be automatically saved and updated**: When registering via a collaborator's domain, the collaborator's invitation code will be automatically saved and updated.
+- **Feat: Add Notice on Staff Page**: Add a notice on the staff page.
+- **Fix: Show staff_url notice**: Fix a bug in the staff_url notice.
+- **Fix: Save DB** Fix a bug in the save DB.
 
 
 ### v3.2.3
