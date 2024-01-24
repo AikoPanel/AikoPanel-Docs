@@ -16,7 +16,13 @@
 **Lưu ý: Domain phải được trỏ về IP của node và mỗi domain phân tách nhau bởi dấu ,**
 
 ### Bước 2: Tạo 1 trang web trên node
-- Add thêm 1 site trên WebAdmin ( aapanel ) với path là chung với path domain chính không tạo thêm database và allow ssl + URL rewrite như web chính 
+- Add thêm 1 site trên WebAdmin ( aapanel ) với path là chung với path domain chính không tạo thêm database và allow ssl + URL rewrite như web chính
+- Ví dụ: Thư mục chứa source là AikoPanel thì đặt như sau :
+![NewSite](../../../image/function/staff/NewSite.png) 
+
+- Với domain name là domain của cộng tác viên
+
+- Sau khi tạo xong bạn cần vào file nginx.conf của domain chính và thêm đoạn code sau vào ( Trên aapanel thì mục Rewrite Rules )
 
 ```
 location /downloads {
@@ -43,9 +49,14 @@ location ~ .*\.(js|css)?$
 
 - Bạn cần bật chức năng cộng tác viên lên và chọn gói cộng tác viên cho cộng tác viên đó
 
+- Xong cá nhân hoá trang cộng tác viên nếu muốn
+
+![StaffCustom](../../../image/function/staff/StaffCustom.png)
+
 ### Bước 5: Cài đặt đường dẫn quản lý của cộng tác viên
 - Sau khi vào thiết lập hệ thống mục an toàn sẽ có 1 mục là đường dẫn quản lý của cộng tác viên bạn cần điền đường dẫn của trang web cộng tác viên vào đây
 
 ![StaffPath](../../../image/function/staff/StaffPath.png)
+
 
 ### Bước 6 : Xong bạn có thể vào trang web cộng tác viên để kiểm tra
