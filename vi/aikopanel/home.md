@@ -21,7 +21,8 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.2.4 (Beta)
+### v3.2.4
+- **Fix and Refactor**: Sửa lỗi và tối ưu hóa cấu trúc chức năng của trang nhân viên.
 
 ### v3.2.3
 - **Fix and Refactor**: Sửa lỗi và tối ưu hóa cấu trúc chức năng của trang nhân viên.

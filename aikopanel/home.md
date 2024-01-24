@@ -22,7 +22,17 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.2.4 (Beta)
+### v3.2.4
+- **Sửa lỗi: Giao thức Vless**: Sửa lỗi trong giao thức Vless (VLESS REALITY + VLESS TLS).
+- **Sửa lỗi: Trợ lý Lấy Giấy phép**: Sửa lỗi trong chức năng trợ lý lấy tên miền phụ cho giấy phép.
+- **Cập nhật: Thanh toán cho Nhân viên**: Cập nhật hệ thống thanh toán cho các thành viên nhân viên.
+- **Sửa lỗi: safe_mode_enabled**: Sửa lỗi trong chức năng safe_mode_enabled.
+- **Thêm: Tùy chỉnh tiêu đề và mô tả nhân viên**: Thêm tùy chỉnh tiêu đề nhân viên, mô tả nhân viên, logo, Nhóm Kết nối.
+- **Thêm: Khi đăng ký qua tên miền của cộng tác viên, mã mời của cộng tác viên sẽ được tự động lưu và cập nhật**: Khi đăng ký qua tên miền của cộng tác viên, mã mời của cộng tác viên sẽ được tự động lưu và cập nhật.
+- **Tính năng: Thêm thông báo trên trang Nhân viên**: Thêm thông báo trên trang nhân viên.
+- **Sửa lỗi: Hiển thị thông báo url nhân viên**: Sửa lỗi trong thông báo url nhân viên.
+- **Sửa lỗi: Lưu DB**: Sửa lỗi trong việc lưu cơ sở dữ liệu.
+
 
 ### v3.2.3
 - **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
