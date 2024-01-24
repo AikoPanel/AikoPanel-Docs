@@ -18,9 +18,12 @@
 ### Bước 2: Tạo 1 trang web trên node
 - Add thêm 1 site trên WebAdmin ( aapanel ) với path là chung với path domain chính không tạo thêm database và allow ssl + URL rewrite như web chính
 - Ví dụ: Thư mục chứa source là AikoPanel thì đặt như sau :
+
 ![NewSite](../../../image/function/staff/NewSite.png) 
 
 - Với domain name là domain của cộng tác viên
+
+![CustomSite](../../../image/function/staff/CustomSite.png)
 
 - Sau khi tạo xong bạn cần vào file nginx.conf của domain chính và thêm đoạn code sau vào ( Trên aapanel thì mục Rewrite Rules )
 

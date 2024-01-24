@@ -18,9 +18,12 @@
 ### Step 2: Create a website on the node
 - Add a new site on WebAdmin (aapanel) with the same path as the main domain. Do not create an additional database, and enable SSL + URL rewrite as on the main website.
 - For example: If the source directory is AikoPanel, set it up as follows:
+
 ![NewSite](../../image/function/staff/NewSite.png) 
 
 - Use the collaborator's domain name.
+
+![CustomSite](../../image/function/staff/CustomSite.png)
 
 - After creating, go to the nginx.conf file of the main domain and add the following code (on aapanel, it's in the Rewrite Rules section):
 
