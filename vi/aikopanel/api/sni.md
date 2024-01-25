@@ -14,6 +14,7 @@
 | lq     | Liên Quân      | `&sni=lq`     |
 | tiktok | Tiktok         | `&sni=tiktok` |
 | jp     | Japan Sorfbank | `&sni=jp`     |
+| fb     | Facebook       | `&sni=fb`     |
 
 ### Thực hiện
 

@@ -22,6 +22,18 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### v3.2.5
+- **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
+- **feat: Allow (Staff) to sell separate packages**: Allow (Staff) to sell separate packages.
+- **Refactor: getPaymentMethod**: Optimize the getPaymentMethod function.
+- **Refactor Get Subscribe**: Optimize the getSubscribe function.
+- **Refactor ( Group Zalo And Telegram )**: Optimize the ( Group Zalo And Telegram ) function.
+- **Feat: Getsubscribe for Staff**: Add the getSubscribe function for staff members.
+- **Refactor Pay CallBack**: Optimize the payCallBack function.
+- **Update: Vertify Payments is better**: Update the Vertify Payments function.
+- **Feat: Personalize the staff page**: Add the ability to personalize the staff page.
+- **Add SNI + Fast SNI**: Add SNI + Fast SNI.
+
 ### v3.2.4
 - **Fix: Vless Protocol**: Fix a bug in the Vless protocol ( VLESS REALITY + VLESS TLS).
 - **Fix: Helper Get License**: Fix a bug in the helper get sub_domain for license.

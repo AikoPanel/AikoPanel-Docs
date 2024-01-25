@@ -21,7 +21,19 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### Phiên bản 3.2.4
+### v3.2.5
+- **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
+- **Tính năng: Cho phép (Nhân viên) bán các gói riêng biệt**: Cho phép nhân viên bán các gói riêng biệt.
+- **Tối ưu: getPaymentMethod**: Tối ưu hóa chức năng getPaymentMethod.
+- **Tối ưu: Get Subscribe**: Tối ưu hóa chức năng getSubscribe.
+- **Tối ưu ( Nhóm Zalo và Telegram )**: Tối ưu hóa chức năng ( Nhóm Zalo và Telegram ).
+- **Tính năng: GetSubscribe cho Nhân viên**: Thêm chức năng getSubscribe cho nhân viên.
+- **Tối ưu Pay CallBack**: Tối ưu hóa chức năng payCallBack.
+- **Cập nhật: Xác minh Thanh toán tốt hơn**: Cập nhật chức năng Xác minh Thanh toán.
+- **Tính năng: Tùy chỉnh trang nhân viên**: Thêm khả năng tùy chỉnh trang nhân viên.
+- **Thêm SNI + Fast SNI**.
+
+### v3.2.4
 - **Sửa lỗi: Giao thức Vless**: Sửa lỗi trong giao thức Vless (VLESS REALITY + VLESS TLS).
 - **Sửa lỗi: Trợ lý Lấy Giấy phép**: Sửa lỗi trong chức năng trợ lý lấy tên miền phụ cho giấy phép.
 - **Cập nhật: Thanh toán cho Nhân viên**: Cập nhật hệ thống thanh toán cho các thành viên nhân viên.
