@@ -22,6 +22,9 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### v3.3.1 (Beta)
+-**Fix: Telegram Services**: Fix a bug in the Telegram services.
+
 ### v3.3.0
 - **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
 - **Refactor: Big Update in Staff Page**: Custom Config , Custom Logo , Custom Connection Group , Custom Staff Title , v.v...
