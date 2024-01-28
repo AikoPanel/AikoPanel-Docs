@@ -22,6 +22,10 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### v3.3.0
+- **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
+- **Refactor: Big Update in Staff Page**: Custom Config , Custom Logo , Custom Connection Group , Custom Staff Title , v.v...
+
 ### v3.2.5
 - **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.
 - **feat: Allow (Staff) to sell separate packages**: Allow (Staff) to sell separate packages.

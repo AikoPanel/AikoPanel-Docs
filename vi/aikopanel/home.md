@@ -21,6 +21,10 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### v3.3.0
+- **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
+- **Refactor: Tối ưu giao diện cho Nhân viên**: Tối ưu hoá chức năng cho trang nhân viên, Custom Tên trang web , tiêu đề, mô tả, logo, Nhóm Kết nối bot thông báo và thanh toán trực tiếp tại trang nhân viên .
+
 ### v3.2.5
 - **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
 - **Tính năng: Cho phép (Nhân viên) bán các gói riêng biệt**: Cho phép nhân viên bán các gói riêng biệt.
