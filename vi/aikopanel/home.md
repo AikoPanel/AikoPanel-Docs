@@ -24,6 +24,7 @@
 ### v3.3.0
 - **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
 - **Refactor: Tối ưu giao diện cho Nhân viên**: Tối ưu hoá chức năng cho trang nhân viên, Custom Tên trang web , tiêu đề, mô tả, logo, Nhóm Kết nối bot thông báo và thanh toán trực tiếp tại trang nhân viên .
+- **Feat: Backup database có thể gửi cho nhiều admin**: Thêm chức năng backup database có thể gửi cho nhiều admin.
 
 ### v3.2.5
 - **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
