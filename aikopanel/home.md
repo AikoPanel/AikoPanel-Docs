@@ -22,8 +22,27 @@
 
 ## Changelog of AikoPanel Verison 3
 
-### v3.3.1 (Beta)
--**Fix: Telegram Services**: Fix a bug in the Telegram services.
+### v3.3.1
+- **Fix: Telegram Services**: Fixed issues with Telegram Services.
+- **Fix: Vless + TLS**: Fixed issues with Vless + TLS.
+- **Refactor Key**: Optimized Key functionality.
+- **Fix: Save Plan**: Fixed Save Plan issue in Admin.
+- **Feat: Duplicate License when having multiple AikoPanel on 1 VPS**: Added functionality to duplicate license when running multiple AikoPanel instances on a single VPS.
+- **Refactor And License optimization**: Optimized License functionality.
+- **Update bankID for Staff**: Updated bankID for staff.
+- **Refactor Reset Password**: Optimized Reset Password functionality.
+- **Add Button backup Database**: Added button to backup the database.
+- **UI Optimization**: Optimized user interface.
+- **Update Format Admin and Staff page**: Updated the format for Admin and Staff page.
+- **Add: show NameServer for Staff**: Added functionality to display NameServer for staff.
+- **Refactor NS type**: Optimized NS type functionality.
+- **Feat: Devoured DEV**: Indicated completion of DEV consumption.
+- **Refactor notifyViaTelegram**: Optimized notifyViaTelegram functionality.
+- **Add: Withdrawal limit**: If the withdrawal amount is greater than the available commission amount, withdrawal is not permitted.
+- **Feat: Deduct commission after withdrawal request**: Commission deducted after a withdrawal request.
+- **Format: Edit notification when a user withdraws money**: Edited notification for when a user withdraws money.
+- **Notice Payment: Show staff email if user has staff**: Payment notice: If the user has staff, display staff email.
+- **Merge Aiko Sing Config to default**: Merged Aiko Sing Config into default.
 
 ### v3.3.0
 - **Fix: Bug in the Previous Update**: Fix a bug that was present in the previous update.

@@ -21,8 +21,27 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
-### v3.3.1 (Beta)
+### v3.3.1
 - **Fix: Telegram Services**: Sửa lỗi Telegram Services.
+- **Fix: Vless + TLS**: Sửa lỗi Vless + TLS.
+- **Refactor Key**: Tối ưu hóa chức năng Key.
+- **Fix : Save Plan**: Sửa lỗi Save Plan trong Admin.
+- **Feat: Duplicate License when having multiple AikoPanel on 1 VPS**: Thêm chức năng Duplicate License khi có nhiều AikoPanel trên 1 VPS.
+- **Refactor And License optimization**: Tối ưu hóa chức năng License.
+- **Update bankID for Staff**: Cập nhật bankID cho nhân viên.
+- **Refactor Reset Password**: Tối ưu hóa chức năng Reset Password.
+- **Add Button backup Database**: Thêm nút sao lưu cơ sở dữ liệu.
+- **Tối ưu lại giao diện người dùng**: Tối ưu hóa giao diện người dùng.
+- **Update Format Admin and Staff page**: Cập nhật định dạng trang Admin và Nhân viên.
+- **Add: show NameServer for Staff**: Thêm chức năng hiển thị NameServer cho nhân viên.
+- **Refactor NS type**: Tối ưu hóa chức năng NS type.
+- **Feat: Đã bú DEV**: Đã bú DEV.
+- **Refactor notifyViaTelegram**: Tối ưu hóa chức năng notifyViaTelegram.
+- **Add: If the withdrawal amount is greater than the available commission amount, withdrawal is not allowed** : Nếu số tiền rút lớn hơn số tiền hoa hồng có sẵn, rút tiền không được phép.
+- **Feat: Deduct commission after withdrawal request**: Trừ hoa hồng sau yêu cầu rút tiền.
+- **Format: Edit notification when a user withdraws money**: Chỉnh sửa thông báo khi người dùng rút tiền.
+- **Notice Payment: If user have staff , Show staff mail**: Thông báo thanh toán: Nếu người dùng có nhân viên, hiển thị mail nhân viên.
+- **Merge Aiko Sing Config to default**: Gộp Aiko Sing Config vào mặc định.
 
 ### v3.3.0
 - **Sửa lỗi: Lỗi trong Bản Cập Nhật Trước**: Sửa lỗi xuất hiện trong bản cập nhật trước.
