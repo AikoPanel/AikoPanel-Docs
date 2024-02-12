@@ -21,6 +21,35 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### Cập nhật phiên bản 3.3.2:
+
+- **Cải tiến Chức năng Bản quyền**: Tối ưu hóa quản lý bản quyền.
+- **Sửa lỗi Phần Quản trị**: Khắc phục lỗi lưu kế hoạch trong bảng điều khiển Quản trị.
+- **Hỗ trợ Bản quyền Cho Nhiều Thể Hiện**: Cho phép nhân bản bản quyền khi chạy nhiều thể hiện của AikoPanel trên một VPS.
+- **Cập nhật BankID cho Nhân viên**: Cập nhật thông tin BankID cho nhân viên.
+- **Cải tiến Đặt lại Mật khẩu**: Làm cho quá trình đặt lại mật khẩu mượt mà hơn.
+- **Tính năng Sao lưu Cơ sở dữ liệu**: Thêm nút mới để sao lưu cơ sở dữ liệu dễ dàng.
+- **Cải tiến Giao diện Người dùng**: Tối ưu hóa giao diện người dùng.
+- **Định dạng lại Trang Quản trị và Nhân viên**: Cải thiện bố cục trang Quản trị và Nhân viên.
+- **Hiển thị NameServer cho Nhân viên**: Thêm tính năng hiển thị chi tiết NameServer cho nhân viên.
+- **Tối ưu hóa Loại NS**: Tinh chỉnh chức năng liên quan đến loại NS.
+- **Hoàn thành Giai đoạn Phát triển**: Đánh dấu kết thúc giai đoạn DEV.
+- **Tối ưu hóa Thông báo qua Telegram**: Cải thiện hiệu suất của thông báo gửi qua Telegram.
+- **Thực hiện Giới hạn Rút tiền**: Đặt hạn chế rút tiền vượt quá số tiền hoa hồng có sẵn.
+- **Trừ hoa hồng sau Yêu cầu rút tiền**: Điều chỉnh quá trình trừ hoa hồng sau khi yêu cầu rút tiền.
+- **Cập nhật định dạng Thông báo rút tiền**: Cập nhật định dạng thông báo khi người dùng rút tiền.
+- **Cải tiến Thông báo Thanh toán**: Hiển thị email nhân viên nếu người dùng có nhân viên.
+- **Gộp Cấu hình Aiko Sing vào mặc định**: Tích hợp cấu hình Aiko Sing vào cấu hình mặc định.
+- **Tối ưu hóa Dịch vụ Cloudflare**: Cải thiện hiệu suất của Dịch vụ Cloudflare.
+- **Theo dõi IP Đăng nhập cuối cùng**: Nâng cao khả năng theo dõi IP đăng nhập cuối cùng cho an ninh tốt hơn.
+- **Cải tiến DNS Tự động**: Tối ưu hóa tính năng DNS tự động cho độ tin cậy cao hơn.
+- **Khắc phục lỗi Tham số trong Cập nhật trước**: Đối phó với lỗi tham số được xác định trong bản cập nhật cuối.
+- **Tinh chỉnh Ứng dụng Giao thức**: Cải thiện quá trình Ứng dụng Giao thức cho hoạt động mượt mà hơn.
+- **Tối ưu hóa Xây dựng Vless trên Shadowrocket**: Tối ưu hóa quá trình xây dựng Vless trên Shadowrocket.
+- **Cải tiến ServerInfoHandler**: Nâng cấp ServerInfoHandler cho hiệu suất tốt hơn.
+- **Gỡ bỏ Cài đặt Docker**: Loại bỏ tính năng cài đặt Docker.
+
+
 ### v3.3.1
 - **Fix: Telegram Services**: Sửa lỗi Telegram Services.
 - **Fix: Vless + TLS**: Sửa lỗi Vless + TLS.

@@ -22,6 +22,34 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### Version 3.3.2 Updates:
+
+- **License Functionality Enhancements**: Improved efficiency in the license management system.
+- **Administration Fixes**: Resolved an issue with saving plans in the Admin panel.
+- **Multiple Instance License Support**: Implemented a feature to allow license duplication for running multiple instances of AikoPanel on a single VPS.
+- **BankID Update for Staff**: Refreshed the BankID information for staff members.
+- **Password Reset Improvements**: Streamlined the password reset process for better user experience.
+- **Database Backup Feature**: Introduced a new button for easy database backups.
+- **User Interface Enhancements**: Conducted optimizations to enhance the user interface.
+- **Admin and Staff Page Formatting**: Revamped the layout for both Admin and Staff pages.
+- **NameServer Display for Staff**: Added a feature to show NameServer details to staff members.
+- **NS Type Optimization**: Refined the functionality related to NS types.
+- **Development Phase Completion**: Marked the end of the DEV phase.
+- **Telegram Notification Optimization**: Enhanced the efficiency of notifications sent via Telegram.
+- **Withdrawal Limit Implementation**: Set restrictions to prevent withdrawals exceeding the available commission.
+- **Post-Withdrawal Commission Deduction**: Adjusted the commission deduction process following a withdrawal request.
+- **Withdrawal Notification Formatting**: Updated the format of notifications for user withdrawals.
+- **Payment Notice Enhancement**: Payment notices now include the staff email if a user is assigned to staff.
+- **Configuration Merge**: Integrated Aiko Sing Config into the default configuration.
+- **Cloudflare Services Optimization**: Improved the performance of Cloudflare Services.
+- **Last Login IP Tracking**: Enhanced the tracking of last login IPs for better security.
+- **Auto DNS Improvements**: Optimized the Auto DNS feature for more reliability.
+- **Fix for Previous Update Errors**: Addressed parameter errors identified in the last update.
+- **Protocol Application Refinement**: Improved the Protocol Application process for smoother operation.
+- **Vless Building on Shadowrocket**: Optimized the process for building Vless on Shadowrocket.
+- **ServerInfoHandler Enhancements**: Upgraded the ServerInfoHandler for improved performance.
+- **Docker Installation Removal**: Removed the Docker installation feature.
+
 ### v3.3.1
 - **Fix: Telegram Services**: Fixed issues with Telegram Services.
 - **Fix: Vless + TLS**: Fixed issues with Vless + TLS.
