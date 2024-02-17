@@ -21,6 +21,16 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### Cập Nhật Phiên Bản 3.3.3:
+- **Sửa lỗi: Không thể lưu bất kỳ thay đổi nào trên trang Quản trị->Người dùng**: Đã khắc phục vấn đề không thể lưu các thay đổi trên trang Quản trị->Người dùng.
+- **Sửa lỗi: Lỗi bộ lọc trên trang nhân viên**: Đã giải quyết lỗi bộ lọc trên trang nhân viên.
+- **Tính năng: Tái cấu trúc gói cài đặt cho cộng tác viên**: Tối ưu hóa quy trình thiết lập gói cho cộng tác viên.
+- **Tính năng: Thêm gói Hợp tác (bao gồm cả website chính)**: Thêm tính năng bao gồm website chính trong gói hợp tác.
+- **Tái cấu trúc: Cài đặt SNI trên Gói**: Tối ưu hóa quy trình cài đặt SNI trên một gói.
+- **Tái cấu trúc: Nhân viên không thể đăng nhập vào Tài khoản Nhân viên khác**: Tăng cường bảo mật cho đăng nhập của nhân viên.
+- **Tái cấu trúc: Sao lưu - Thêm file cấu hình, file môi trường và file nhân viên**: Cải thiện quy trình sao lưu bằng cách thêm file cấu hình, file môi trường và file nhân viên.
+- **Tái cấu trúc: Xác minh ID quản trị khi sao lưu**: Tăng cường xác minh ID quản trị trong quá trình sao lưu.
+
 ### Cập nhật phiên bản 3.3.2:
 
 - **Cải tiến Chức năng Bản quyền**: Tối ưu hóa quản lý bản quyền.

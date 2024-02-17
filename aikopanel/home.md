@@ -22,6 +22,16 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### Version 3.3.3 Updates:
+- **Fix: Cannot Save anything on Admin->User page**: Fixed an issue that prevented the saving of any changes on the Admin->User page.
+- **Fix: filter Error in staff page**: Resolved a filter error on the staff page.
+- **Feat: Refactor setting packages for collaborators**: Optimized the process of setting packages for collaborators.
+- **Feaf: add Collaboration package (main website included)**: Added a feature to include the main website in the collaboration package.
+- **Refactor: Setting SNI on Plan**: Optimized the process of setting SNI on a plan.
+- **Refactor: User Staff cannot login to User Staff orther**: Enhanced the security of user staff login.
+- **Refactor: Backup - Add config file, env file and staff file**: Improved the backup process by adding config, env, and staff files.
+- **Refactor: Verify admin id when backing up**: Enhanced the verification of admin ID during the backup process.
+
 ### Version 3.3.2 Updates:
 
 - **License Functionality Enhancements**: Improved efficiency in the license management system.
