@@ -21,6 +21,23 @@
 
 ## Nhật kí thay đổi của AikoPanel Verison 3
 
+### Cập nhật phiên bản 3.3.4:
+- **Tính năng mới: Trao đổi giữa các trang web của nhân viên**: Thêm tính năng cho phép trao đổi thông tin giữa các trang web của nhân viên.
+- **Tính năng mới: Người dùng có thể đăng nhập bằng Tên đăng nhập hoặc Email**: Thêm tính năng cho phép người dùng đăng nhập bằng tên đăng nhập hoặc email.
+- **Tối ưu: Trang nhân sự (Xóa tất cả nhập liệu có https://)**: Tối ưu hóa trang nhân sự bằng cách loại bỏ tất cả nhập liệu với https://.
+- **Tối ưu: Chọn kế hoạch**: Tối ưu hóa chức năng chọn kế hoạch.
+- **Sửa lỗi: Chức năng Auto DNS**: Sửa lỗi với chức năng Auto DNS.
+- **Thêm: Thêm bộ lọc trên trang kế hoạch**: Thêm bộ lọc vào trang kế hoạch.
+- **Xóa bỏ: Xóa thông tin không hoạt động trên trang nhân sự**: Loại bỏ thông tin không chức năng từ trang nhân sự.
+- **Sửa lỗi: Sửa lỗi vấn đề về xếp hạng giao thông thời gian thực hôm nay trên bảng điều khiển giao thông dưới một số hoàn cảnh**: Sửa lỗi với xếp hạng giao thông thời gian thực trên bảng điều khiển giao thông.
+- **Sửa lỗi: Chức năng AutoDNS**: Sửa lỗi với chức năng AutoDNS.
+- **Tính năng mới: Thêm nhân viên sử dụng phiếu giảm giá**: Thêm tính năng cho phép nhân viên sử dụng phiếu giảm giá.
+- **Thay đổi từ xa: Thay đổi loại lưu trữ tên miền nhân viên**: Thay đổi loại lưu trữ tên miền của nhân viên.
+- **Sửa lỗi: Hiển thị số lượng kế hoạch trên trang nhân sự**: Sửa lỗi với việc hiển thị số lượng kế hoạch trên trang nhân sự.
+- **Tính năng mới: Hiển thị thông tin chính xác trong gói đóng góp**: Thêm tính năng hiển thị thông tin chính xác trong gói đóng góp.
+- **Tính năng mới: Thêm bộ lọc tên miền nhân viên**: Thêm tính năng lọc tên miền nhân viên.
+- **Tối ưu: Trao đổi giữa các trang web của nhân viên**: Tối ưu hóa việc trao đổi thông tin giữa các trang web của nhân viên.
+
 ### Cập Nhật Phiên Bản 3.3.3:
 - **Sửa lỗi: Không thể lưu bất kỳ thay đổi nào trên trang Quản trị->Người dùng**: Đã khắc phục vấn đề không thể lưu các thay đổi trên trang Quản trị->Người dùng.
 - **Sửa lỗi: Lỗi bộ lọc trên trang nhân viên**: Đã giải quyết lỗi bộ lọc trên trang nhân viên.

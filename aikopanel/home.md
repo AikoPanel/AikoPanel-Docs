@@ -22,6 +22,23 @@
 
 ## Changelog of AikoPanel Verison 3
 
+### Version 3.3.4 Updates:
+- **Feat: Exchange between employee websites**: Added a feature to allow the exchange of information between employee websites.
+- **Feat: User can login with Username or Email**: Added a feature to allow users to log in with either their username or email.
+- **Refactor: Staf page ( Delete all input have https:// )**: Optimized the staff page by removing all inputs with https://.
+- **Refactor Select Plan**: Optimized the select plan functionality.
+- **Fix: Auto Dns Function**: Fixed an issue with the Auto DNS function.
+- **Add: Add Filter in Plan Page**: Added a filter to the plan page.
+- **Delete: Delete Info not Work in Staff Page**: Removed non-functional information from the staff page.
+- **fix: Fix the problem of today’s real-time traffic ranking in the traffic dashboard under certain circumstances.**: Fixed an issue with the real-time traffic ranking in the traffic dashboard.
+- **Fix: Function AutoDNS**: Fixed an issue with the AutoDNS function.
+- **Feat: Add Staff using Coupon**: Added a feature to allow staff to use coupons.
+- **Remote: Change Type Save Staff Domain**: Changed the type of saving staff domain.
+- **Fix: Show count plan in staff page**: Fixed an issue with the count plan in the staff page.
+- **Feat: Display correct information in contributor's package**: Added a feature to display the correct information in the contributor's package.
+- **Feat: Add Staff domain name filter**: Added a feature to filter staff domain names.
+- **Refactor: exchange between employee websites**: Optimized the exchange of information between employee websites.
+
 ### Version 3.3.3 Updates:
 - **Fix: Cannot Save anything on Admin->User page**: Fixed an issue that prevented the saving of any changes on the Admin->User page.
 - **Fix: filter Error in staff page**: Resolved a filter error on the staff page.
