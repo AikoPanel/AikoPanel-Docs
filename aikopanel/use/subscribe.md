@@ -46,4 +46,4 @@ Currently, the system has two subscription reset methods, which can be found in 
 # FAQ
 
 Q: After purchase, the status is in the activation process
-A: Please check whether the scheduled task is available and valid. Many V2Board services rely on scheduled tasks. If you do not configure them, there will be problems with orders or commission distribution.
+A: Please check whether the scheduled task is available and valid. Many AikoPanel services rely on scheduled tasks. If you do not configure them, there will be problems with orders or commission distribution.
