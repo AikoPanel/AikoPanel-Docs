@@ -1,6 +1,6 @@
 # Commission
  Invitation rates can be configured in the backend -> System Configuration -> Invitations & Commissions.
- Invitation commission in system configuration is valid for all users Assuming the commission rate is set to 10%, a subscription worth 100 yuan will give the inviter a commission of 10 yuan  .
+ Invitation commission in system configuration is valid for all users Assuming the commission rate is set to 10%, a subscription worth 100.000Đ will give the inviter a commission of 10000Đ  .
  You can set commission rates for each individual user in user management.
 
 # Commission release
