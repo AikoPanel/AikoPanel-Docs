@@ -1,0 +1,37 @@
+import{_ as a,a as e,b as s,c as n,d as t,e as o,f as p,g as l}from"./chunks/StaffPath.BkRGZQ7u.js";import{_ as i,c as r,o as c,a3 as h}from"./chunks/framework.D5qxx6u8.js";const q=JSON.parse('{"title":"Creating a Collaborator Website","description":"","frontmatter":{},"headers":[],"relativePath":"aikopanel/function/staff.md","filePath":"aikopanel/function/staff.md"}'),_={name:"aikopanel/function/staff.md"},d=h('<h1 id="creating-a-collaborator-website" tabindex="-1">Creating a Collaborator Website <a class="header-anchor" href="#creating-a-collaborator-website" aria-label="Permalink to &quot;Creating a Collaborator Website&quot;">​</a></h1><h2 id="function-description" tabindex="-1">Function Description <a class="header-anchor" href="#function-description" aria-label="Permalink to &quot;Function Description&quot;">​</a></h2><ul><li>The website allows collaborators to sell on their personal domain and offer collaborator packages, which can generate revenue for them (packages must be approved by the admin).</li></ul><h2 id="preparation" tabindex="-1">Preparation <a class="header-anchor" href="#preparation" aria-label="Permalink to &quot;Preparation&quot;">​</a></h2><ul><li>Own a personal domain.</li></ul><h2 id="setup-process" tabindex="-1">Setup Process <a class="header-anchor" href="#setup-process" aria-label="Permalink to &quot;Setup Process&quot;">​</a></h2><h3 id="step-1-create-a-domain-pointing-to-the-ip-of-the-node" tabindex="-1">Step 1: Create a domain pointing to the IP of the node <a class="header-anchor" href="#step-1-create-a-domain-pointing-to-the-ip-of-the-node" aria-label="Permalink to &quot;Step 1: Create a domain pointing to the IP of the node&quot;">​</a></h3><p><img src="'+a+'" alt="AllowDomain"><img src="'+e+'" alt="AllowSubscribe"></p><p><strong>Note: The domain must point to the node&#39;s IP, and each domain should be separated by a comma.</strong></p><h3 id="step-2-create-a-website-on-the-node" tabindex="-1">Step 2: Create a website on the node <a class="header-anchor" href="#step-2-create-a-website-on-the-node" aria-label="Permalink to &quot;Step 2: Create a website on the node&quot;">​</a></h3><ul><li>Add a new site on WebAdmin (aapanel) with the same path as the main domain. Do not create an additional database, and enable SSL + URL rewrite as on the main website.</li><li>For example: If the source directory is AikoPanel, set it up as follows:</li></ul><p><img src="'+s+'" alt="NewSite"></p><ul><li>Use the collaborator&#39;s domain name.</li></ul><p><img src="'+n+`" alt="CustomSite"></p><ul><li>After creating, go to the nginx.conf file of the main domain and add the following code (on aapanel, it&#39;s in the Rewrite Rules section):</li></ul><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>set_real_ip_from 103.21.244.0/22;</span></span>
+<span class="line"><span>set_real_ip_from 103.22.200.0/22;</span></span>
+<span class="line"><span>set_real_ip_from 103.31.4.0/22;</span></span>
+<span class="line"><span>set_real_ip_from 104.16.0.0/13;</span></span>
+<span class="line"><span>set_real_ip_from 104.24.0.0/14;</span></span>
+<span class="line"><span>set_real_ip_from 108.162.192.0/18;</span></span>
+<span class="line"><span>set_real_ip_from 131.0.72.0/22;</span></span>
+<span class="line"><span>set_real_ip_from 141.101.64.0/18;</span></span>
+<span class="line"><span>set_real_ip_from 162.158.0.0/15;</span></span>
+<span class="line"><span>set_real_ip_from 172.64.0.0/13;</span></span>
+<span class="line"><span>set_real_ip_from 173.245.48.0/20;</span></span>
+<span class="line"><span>set_real_ip_from 188.114.96.0/20;</span></span>
+<span class="line"><span>set_real_ip_from 190.93.240.0/20;</span></span>
+<span class="line"><span>set_real_ip_from 197.234.240.0/22;</span></span>
+<span class="line"><span>set_real_ip_from 198.41.128.0/17;</span></span>
+<span class="line"><span>set_real_ip_from 2400:cb00::/32;</span></span>
+<span class="line"><span>set_real_ip_from 2606:4700::/32;</span></span>
+<span class="line"><span>set_real_ip_from 2803:f800::/32;</span></span>
+<span class="line"><span>set_real_ip_from 2405:b500::/32;</span></span>
+<span class="line"><span>set_real_ip_from 2405:8100::/32;</span></span>
+<span class="line"><span>set_real_ip_from 2a06:98c0::/29;</span></span>
+<span class="line"><span>set_real_ip_from 2c0f:f248::/32;</span></span>
+<span class="line"><span>real_ip_header CF-Connecting-IP;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>location /downloads {</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>location / {</span></span>
+<span class="line"><span>    try_files $uri $uri/ /index.php$is_args$query_string;</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>location ~ .*\\.(js|css)?$</span></span>
+<span class="line"><span>{</span></span>
+<span class="line"><span>    expires      1h;</span></span>
+<span class="line"><span>    error_log off;</span></span>
+<span class="line"><span>    access_log /dev/null;</span></span>
+<span class="line"><span>}</span></span></code></pre></div><h3 id="step-3-create-a-custom-package-for-the-collaborator" tabindex="-1">Step 3: Create a custom package for the collaborator <a class="header-anchor" href="#step-3-create-a-custom-package-for-the-collaborator" aria-label="Permalink to &quot;Step 3: Create a custom package for the collaborator&quot;">​</a></h3><p><img src="`+t+'" alt="PlanOfStaff"></p><h3 id="step-4-create-a-collaborator-account" tabindex="-1">Step 4: Create a collaborator account <a class="header-anchor" href="#step-4-create-a-collaborator-account" aria-label="Permalink to &quot;Step 4: Create a collaborator account&quot;">​</a></h3><p><img src="'+o+'" alt="CreateStaff"></p><ul><li><p>Enable the collaborator function and select the collaborator package for them.</p></li><li><p>Personalize the collaborator&#39;s page if desired. <img src="'+p+'" alt="StaffCustom"></p></li></ul><h3 id="step-5-set-up-the-collaborator-s-management-path" tabindex="-1">Step 5: Set up the collaborator&#39;s management path <a class="header-anchor" href="#step-5-set-up-the-collaborator-s-management-path" aria-label="Permalink to &quot;Step 5: Set up the collaborator&#39;s management path&quot;">​</a></h3><ul><li>In the system settings under the security section, fill in the path of the collaborator&#39;s website.</li></ul><p><img src="'+l+'" alt="StaffPath"></p><h3 id="step-6-visit-the-collaborator-s-website-to-check" tabindex="-1">Step 6: Visit the collaborator&#39;s website to check <a class="header-anchor" href="#step-6-visit-the-collaborator-s-website-to-check" aria-label="Permalink to &quot;Step 6: Visit the collaborator&#39;s website to check&quot;">​</a></h3>',25),m=[d];function f(u,b,g,k,S,w){return c(),r("div",null,m)}const x=i(_,[["render",f]]);export{q as __pageData,x as default};
