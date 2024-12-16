@@ -1,5 +1,4 @@
 # Manage service packages
-
 ## Click “+ Add Service Package”
 
 ## Package name:
