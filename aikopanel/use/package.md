@@ -38,7 +38,7 @@ The rules and conditions that apply to the package.
 ## AppleID retrieval limit:
 - Apple ID retrieval limit is Apple's regulation on the number of times a user can create a new or use an Apple ID on different devices or accounts within a certain period of time. This policy is intended to prevent abuse and protect user accounts.
 
-### These limits may include:
+## These limits may include:
 
 1. Number of new Apple IDs: Apple may limit the number of times a user can create a new Apple ID in a day or a week.
 
