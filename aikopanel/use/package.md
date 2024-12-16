@@ -85,4 +85,10 @@ Package SNI (Server Name Indication) is an extension of the TLS protocol that he
 Rate Limit is a regulation on the maximum speed that a service can achieve.
 
 ## Admin Package:
-The term "admin package" can refer to tools or services specifically for administration
+The term "admin package" can refer to tools or services specifically for administration member.
+
+## CTV Package (Not including main website):
+Collaborator Package (not including main website) is a service provided exclusively to partners without going through the main website of the business.
+
+## CTV Package (Including main website):
+Collaborator Package (including main website) is a service that includes the features of the main web platform.
