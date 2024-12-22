@@ -1,6 +1,6 @@
 # System Setup
 ## [Website]
-## Tên website:
+## Name website:
 -A web name is the name of a website or domain name that a user enters into a browser to access that website. A web name often reflects the brand, content, or purpose of the website and plays an important role in identifying and identifying the website in cyberspace.
 
 ## The web name consists of two main parts:
@@ -47,8 +47,8 @@ The structure of a SubDomain address is usually as follows:
 
 Example:
 - "blog.example.com": "blog" is a SubDomain.
-- "shop.example.com": "shop" là SubDomain.
-- "support.example.com": "support" là SubDomain.
+- "shop.example.com": "shop" lÃ  SubDomain.
+- "support.example.com": "support" lÃ  SubDomain.
 
 -Subdomains help to divide and manage content more efficiently, especially for websites that are large or have a variety of services and functions.
 ## Subscription URL:
@@ -112,7 +112,7 @@ Using "background-image" with a URL makes it easy to add a background image to y
 ## Free Trial:
 -A free trial is a period of time that allows users to access and use a product or service without having to pay for it. Free trials are often offered by software companies, online services, and other providers as a way for potential users to experience the features and benefits of a product before deciding to purchase or sign up for a service.
 
-##Các Key features of free testing include:
+##CÃ¡c Key features of free testing include:
 
 1. Limited time: Free trials usually have a time limit, ranging from a few days to a few weeks. For example, a service may offer a free trial period that lasts 7 days, 14 days, or even 30 days.
 2. Full or Limited Access: In some cases, users may have full access to all the features of the product or service. In other cases, only certain features are unlocked for users to test.
@@ -147,7 +147,7 @@ The duration of the test can be specified by the number of hours. For example, a
 
 ## Factors related to the currency:
 
-1. Currency symbol: Is the symbol used to represent the currency unit, for example, $ for US dollar, € for euro, ¥ for Japanese yen.
+1. Currency symbol: Is the symbol used to represent the currency unit, for example, $ for US dollar, Â€ for euro, Â¥ for Japanese yen.
 2. ISO currency code: It is a three-letter code defined according to the ISO 4217 standard to denote the world's currencies, for example: USD for US dollar, EUR for euro, JPY for Japanese yen.
 3.  Exchange rate: It is the exchange rate between two different currencies, which usually changes over time and is influenced by many economic and political factors.
 4. Central Bank: The monetary regulatory and issuing agency of a country, such as the United States Federal Reserve (Fed), the European Central Bank (ECB), or the State Bank of Vietnam.
@@ -157,10 +157,10 @@ The duration of the test can be specified by the number of hours. For example, a
 ### Some common currency symbols:
 
 1. US Dollar (USD): $
-2. Euro (EUR): €
-3. British Pound (GBP): £
-4. Japanese Yen (JPY): ¥
-5. Chinese Yuan (CNY): ¥ or ?
+2. Euro (EUR): Â€
+3. British Pound (GBP): Â£
+4. Japanese Yen (JPY): Â¥
+5. Chinese Yuan (CNY): Â¥ or ?
 6. Vietnamese Dong (VND): ?
 7. Canadian Dollar (CAD): $
 8. Australian Dollar (AUD): $
@@ -170,9 +170,9 @@ The duration of the test can be specified by the number of hours. For example, a
 ## Examples of how to use currency symbols:
 
 1. $50: Denotes 50 US dollars.
-2. €30: Represents 30 euros.
-3. £20: Represents £20.
-4. ¥5000: Represents 5000 Japanese yen.
+2. Â€30: Represents 30 euros.
+3. Â£20: Represents Â£20.
+4. Â¥5000: Represents 5000 Japanese yen.
 5. ?100,000: Represents 100,000 VND.
 
 -Currency symbols help users quickly recognize the currency in use, which is especially useful in international transactions and when working with a variety of currencies.
@@ -1478,7 +1478,7 @@ How to use the Cloudflare API:
 
 Zone ID is often used in API requests to identify the zone that you want to manipulate. For example, when you want to update DNS records, clear cache, or change security settings for a specific domain name, you need to provide the Zone ID of that zone in the API request.
 
-## Tìm Zone ID:
+## TÃ¬m Zone ID:
 
 To find the Zone ID of a zone in Cloudflare, you can follow these steps:
 
